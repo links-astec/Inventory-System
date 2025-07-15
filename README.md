@@ -190,14 +190,3 @@ def notify_user(user, message):
 * ✅ Professional architecture suitable for future scaling.
 
 ---
-
-## 📌 Next Steps
-
-* Define API endpoints (CRUD + Notification views).
-* Implement service layer and notification backend.
-* Connect SMS gateway.
-* Document API for frontend team.
-
----
-
-**Designed & Maintained by the Backend Team (Django + PostgreSQL)**
