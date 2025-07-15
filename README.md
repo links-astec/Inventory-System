@@ -12,7 +12,7 @@ As part of a group project, this document outlines the backend architecture, dat
 
 * **Backend Framework:** Django (Python 3.x)
 * **Database:** PostgreSQL
-* **Architecture Pattern:** MVC (Django)
+* **Architecture Pattern:** MVC (Django as Full Stack)
 * **Notification Channels:** In-Web & SMS
 * **Stock Management:** Automated via Service Layer
 
@@ -190,3 +190,59 @@ def notify_user(user, message):
 * ✅ Professional architecture suitable for future scaling.
 
 ---
+
+## 📂 Project Setup Instructions
+
+1. **Clone Repository:**
+
+```bash
+git clone <repo-url>
+cd inventory_project
+```
+
+2. **Setup Virtual Environment:**
+
+```bash
+python -m venv venv
+source venv/bin/activate  # (Linux/Mac)
+venv\Scripts\activate    # (Windows)
+```
+
+3. **Install Dependencies:**
+
+```bash
+pip install -r requirements.txt
+```
+
+4. **Configure PostgreSQL Database:**
+
+* Update `settings.py` with your database credentials.
+
+5. **Apply Migrations:**
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+6. **Create Superuser (Optional for Admin):**
+
+```bash
+python manage.py createsuperuser
+```
+
+7. **Run Development Server:**
+
+```bash
+python manage.py runserver
+```
+
+8. **Run Tests:**
+
+```bash
+python manage.py test
+```
+
+---
+
+Ready for frontend development using Django Templates or React as desired.
