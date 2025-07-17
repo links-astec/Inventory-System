@@ -4,6 +4,7 @@ from .views import BuyerViewSet
 from .views import TransactionViewSet
 from .views import NotificationViewSet
 from .views import register_user
+from .views import SalesSummaryView,sales_report
 
 
 router = DefaultRouter()
@@ -18,4 +19,7 @@ urlpatterns = router.urls
 
 urlpatterns += [
     path('auth/signup/', register_user, name='register_user'),
+    path('api/reports/sales-summary/', SalesSummaryView.as_view(), name='sales-summary'),
+    path('api/reports/', sales_report),
+
 ]
