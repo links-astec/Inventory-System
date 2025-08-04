@@ -1,0 +1,1140 @@
+INFO 2025-08-03 15:14:45,437 autoreload 3216 14028 Watching for file changes with StatReloader
+WARNING 2025-08-03 15:17:54,575 log 3216 6976 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 15:17:54,575 basehttp 3216 6976 "POST /api/admin/login/ HTTP/1.1" 401 58
+INFO 2025-08-03 15:18:06,550 autoreload 3216 14028 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 15:18:08,241 autoreload 9104 1304 Watching for file changes with StatReloader
+INFO 2025-08-03 15:21:49,206 autoreload 9104 1304 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 15:21:50,701 autoreload 6796 15620 Watching for file changes with StatReloader
+INFO 2025-08-03 15:22:22,327 autoreload 6796 15620 D:\projects\Inventory\Inv\inventory_project\inventory\serializers.py changed, reloading.
+INFO 2025-08-03 15:22:24,126 autoreload 8528 17100 Watching for file changes with StatReloader
+INFO 2025-08-03 15:25:00,167 basehttp 8528 13812 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-08-03 15:25:00,167 basehttp 8528 15356 "OPTIONS /api/customers/ HTTP/1.1" 200 0
+INFO 2025-08-03 15:25:00,206 basehttp 8528 4676 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+INFO 2025-08-03 15:25:00,225 basehttp 8528 16076 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-08-03 15:25:00,240 basehttp 8528 7164 "OPTIONS /api/customers/ HTTP/1.1" 200 0
+INFO 2025-08-03 15:25:00,291 basehttp 8528 1436 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+WARNING 2025-08-03 15:25:00,396 log 8528 15356 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:25:00,439 log 8528 13812 Unauthorized: /api/products/
+WARNING 2025-08-03 15:25:00,440 log 8528 4676 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:25:00,442 basehttp 8528 15356 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:00,443 basehttp 8528 13812 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:00,456 basehttp 8528 4676 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:00,485 log 8528 15356 Unauthorized: /api/products/
+WARNING 2025-08-03 15:25:00,490 log 8528 13812 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:25:00,502 log 8528 4676 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:25:00,505 basehttp 8528 15356 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:00,505 basehttp 8528 13812 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:00,512 basehttp 8528 4676 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:11,226 log 8528 4676 Unauthorized: /api/products/
+WARNING 2025-08-03 15:25:11,226 basehttp 8528 4676 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:11,226 log 8528 4676 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:25:11,238 log 8528 13812 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:25:11,238 basehttp 8528 4676 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:11,246 basehttp 8528 13812 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:32,779 log 8528 13812 Unauthorized: /api/products/
+WARNING 2025-08-03 15:25:32,779 basehttp 8528 13812 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:32,800 log 8528 4676 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:25:32,800 log 8528 13812 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:25:32,806 basehttp 8528 4676 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:32,808 basehttp 8528 13812 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:45,639 log 8528 13812 Unauthorized: /api/products/
+WARNING 2025-08-03 15:25:45,670 basehttp 8528 13812 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:46,581 log 8528 4676 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:25:46,581 log 8528 13812 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:25:46,621 basehttp 8528 4676 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:25:46,639 basehttp 8528 13812 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:26:01,542 log 8528 13812 Unauthorized: /api/products/
+WARNING 2025-08-03 15:26:01,542 basehttp 8528 13812 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:26:01,567 log 8528 13812 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:26:01,567 basehttp 8528 13812 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:26:01,730 log 8528 13812 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:26:01,730 basehttp 8528 13812 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:26:09,236 log 8528 13812 Unauthorized: /api/products/
+WARNING 2025-08-03 15:26:09,237 basehttp 8528 13812 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:26:09,245 log 8528 13812 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:26:09,250 log 8528 4676 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:26:09,250 basehttp 8528 13812 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:26:09,252 basehttp 8528 4676 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:26:23,280 log 8528 13812 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:26:23,280 log 8528 4676 Unauthorized: /api/products/
+WARNING 2025-08-03 15:26:23,297 log 8528 15356 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:26:23,297 basehttp 8528 13812 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:26:23,297 basehttp 8528 4676 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:26:23,297 basehttp 8528 15356 "GET /api/sales/ HTTP/1.1" 401 27
+INFO 2025-08-03 15:26:49,446 autoreload 8528 17100 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 15:26:51,171 autoreload 9752 5592 Watching for file changes with StatReloader
+INFO 2025-08-03 15:27:08,173 autoreload 9752 5592 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 15:27:09,812 autoreload 11584 15424 Watching for file changes with StatReloader
+INFO 2025-08-03 15:27:21,485 autoreload 11584 15424 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 15:27:22,984 autoreload 4472 10096 Watching for file changes with StatReloader
+WARNING 2025-08-03 15:34:21,766 log 4472 12964 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:34:21,766 log 4472 8236 Unauthorized: /api/products/
+WARNING 2025-08-03 15:34:21,782 basehttp 4472 12964 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:34:21,798 basehttp 4472 8236 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:34:21,798 log 4472 8900 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:34:21,819 basehttp 4472 8900 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:34:36,272 log 4472 8900 Unauthorized: /api/products/
+WARNING 2025-08-03 15:34:36,272 log 4472 8236 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:34:36,272 basehttp 4472 8900 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:34:36,272 basehttp 4472 8236 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:34:36,287 log 4472 8236 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:34:36,287 basehttp 4472 8236 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:34:36,323 log 4472 8236 Unauthorized: /api/products/
+WARNING 2025-08-03 15:34:36,330 basehttp 4472 8236 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:34:36,372 log 4472 8236 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:34:36,372 basehttp 4472 8236 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:34:36,396 log 4472 8236 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:34:36,406 basehttp 4472 8236 "GET /api/sales/ HTTP/1.1" 401 27
+INFO 2025-08-03 15:38:18,726 basehttp 4472 8168 "GET /api/products/ HTTP/1.1" 200 916
+WARNING 2025-08-03 15:39:00,794 log 4472 10556 Unauthorized: /api/products/
+WARNING 2025-08-03 15:39:00,825 basehttp 4472 10556 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:39:00,872 log 4472 13608 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:39:00,872 log 4472 9860 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:39:00,892 basehttp 4472 13608 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:39:00,898 basehttp 4472 9860 "GET /api/sales/ HTTP/1.1" 401 27
+INFO 2025-08-03 15:39:11,234 basehttp 4472 1080 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+WARNING 2025-08-03 15:39:11,256 log 4472 1080 Unauthorized: /api/dashboard-stats/
+INFO 2025-08-03 15:39:11,258 basehttp 4472 5472 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+WARNING 2025-08-03 15:39:11,267 basehttp 4472 1080 "GET /api/dashboard-stats/ HTTP/1.1" 401 58
+WARNING 2025-08-03 15:39:11,282 log 4472 5472 Unauthorized: /api/dashboard-stats/
+INFO 2025-08-03 15:39:11,282 basehttp 4472 1080 "OPTIONS /api/products/ HTTP/1.1" 200 0
+WARNING 2025-08-03 15:39:11,291 basehttp 4472 5472 "GET /api/dashboard-stats/ HTTP/1.1" 401 58
+INFO 2025-08-03 15:39:11,676 basehttp 4472 5472 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 15:39:11,698 basehttp 4472 5472 "OPTIONS /api/users/ HTTP/1.1" 200 0
+WARNING 2025-08-03 15:39:11,708 log 4472 1080 Unauthorized: /api/users/
+INFO 2025-08-03 15:39:11,716 basehttp 4472 5472 "GET /api/products/ HTTP/1.1" 200 916
+WARNING 2025-08-03 15:39:11,733 basehttp 4472 1080 "GET /api/users/ HTTP/1.1" 401 58
+WARNING 2025-08-03 15:39:11,759 log 4472 5472 Unauthorized: /api/users/
+WARNING 2025-08-03 15:39:11,774 basehttp 4472 5472 "GET /api/users/ HTTP/1.1" 401 58
+INFO 2025-08-03 15:39:12,000 basehttp 4472 1080 "GET /api/customers/ HTTP/1.1" 200 1313
+INFO 2025-08-03 15:39:12,023 basehttp 4472 1080 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+INFO 2025-08-03 15:39:12,071 basehttp 4472 1080 "GET /api/customers/ HTTP/1.1" 200 1313
+INFO 2025-08-03 15:39:12,116 basehttp 4472 5472 "GET /api/sales/ HTTP/1.1" 200 2335
+INFO 2025-08-03 15:39:12,124 basehttp 4472 1080 "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+WARNING 2025-08-03 15:39:12,132 log 4472 1080 Unauthorized: /api/notifications/
+WARNING 2025-08-03 15:39:12,134 basehttp 4472 1080 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 15:39:12,146 basehttp 4472 1080 "OPTIONS /api/audit-logs/ HTTP/1.1" 200 0
+WARNING 2025-08-03 15:39:12,153 log 4472 1080 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 15:39:12,155 basehttp 4472 1080 "GET /api/audit-logs/ HTTP/1.1" 401 58
+INFO 2025-08-03 15:39:12,171 basehttp 4472 5472 "GET /api/sales/ HTTP/1.1" 200 2335
+WARNING 2025-08-03 15:39:12,180 log 4472 5472 Unauthorized: /api/notifications/
+WARNING 2025-08-03 15:39:12,188 basehttp 4472 5472 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 15:39:12,198 log 4472 5472 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 15:39:12,200 basehttp 4472 5472 "GET /api/audit-logs/ HTTP/1.1" 401 58
+INFO 2025-08-03 15:39:14,976 basehttp 4472 17184 "POST /api/generate-token/ HTTP/1.1" 201 20
+WARNING 2025-08-03 15:39:14,992 log 4472 17184 Method Not Allowed: /api/generate-token/
+WARNING 2025-08-03 15:39:14,992 basehttp 4472 17184 "GET /api/generate-token/ HTTP/1.1" 405 40
+WARNING 2025-08-03 15:39:15,110 log 4472 17184 Not Found: /favicon.ico
+WARNING 2025-08-03 15:39:15,110 basehttp 4472 17184 "GET /favicon.ico HTTP/1.1" 404 2366
+INFO 2025-08-03 15:39:29,743 autoreload 4472 10096 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 15:39:31,403 autoreload 15080 17212 Watching for file changes with StatReloader
+INFO 2025-08-03 15:40:01,787 basehttp 15080 8668 "OPTIONS /api/admin/login/ HTTP/1.1" 200 0
+WARNING 2025-08-03 15:40:01,800 log 15080 8668 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 15:40:01,804 basehttp 15080 8668 "POST /api/admin/login/ HTTP/1.1" 401 58
+WARNING 2025-08-03 15:40:09,141 log 15080 8668 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 15:40:09,147 basehttp 15080 8668 "POST /api/admin/login/ HTTP/1.1" 401 58
+WARNING 2025-08-03 15:40:29,201 log 15080 8668 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 15:40:29,202 basehttp 15080 8668 "POST /api/admin/login/ HTTP/1.1" 401 58
+INFO 2025-08-03 15:40:52,101 basehttp 15080 8668 "OPTIONS /api/admin/register/ HTTP/1.1" 200 0
+WARNING 2025-08-03 15:40:52,175 log 15080 8668 Unauthorized: /api/admin/register/
+WARNING 2025-08-03 15:40:52,182 basehttp 15080 8668 "POST /api/admin/register/ HTTP/1.1" 401 58
+INFO 2025-08-03 15:41:15,611 autoreload 15080 17212 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 15:41:18,072 autoreload 12888 15668 Watching for file changes with StatReloader
+WARNING 2025-08-03 15:41:57,424 log 12888 16572 Unauthorized: /api/admin/register/
+WARNING 2025-08-03 15:41:57,426 basehttp 12888 16572 "POST /api/admin/register/ HTTP/1.1" 401 58
+INFO 2025-08-03 15:43:04,110 autoreload 13380 408 Watching for file changes with StatReloader
+WARNING 2025-08-03 15:43:57,723 log 13380 15220 Unauthorized: /api/admin/register/
+WARNING 2025-08-03 15:43:57,758 basehttp 13380 15220 "POST /api/admin/register/ HTTP/1.1" 401 58
+INFO 2025-08-03 15:46:20,860 autoreload 13380 408 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 15:46:22,836 autoreload 32 1052 Watching for file changes with StatReloader
+WARNING 2025-08-03 15:48:52,928 log 32 14652 Unauthorized: /api/products/
+WARNING 2025-08-03 15:48:52,943 basehttp 32 14652 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:48:53,028 log 32 14652 Unauthorized: /api/products/
+WARNING 2025-08-03 15:48:53,045 basehttp 32 14652 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:48:53,175 log 32 12592 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:48:53,176 basehttp 32 12592 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:48:53,186 log 32 12592 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:48:53,191 basehttp 32 12592 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:48:53,220 log 32 6364 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:48:53,221 basehttp 32 6364 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:48:53,235 log 32 6364 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:48:53,236 basehttp 32 6364 "GET /api/sales/ HTTP/1.1" 401 27
+INFO 2025-08-03 15:53:27,648 basehttp 32 15044 "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+WARNING 2025-08-03 15:53:27,716 log 32 15044 Unauthorized: /api/notifications/
+WARNING 2025-08-03 15:53:27,716 basehttp 32 15044 "POST /api/notifications/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:53:30,001 log 32 15044 Unauthorized: /api/notifications/
+WARNING 2025-08-03 15:53:30,002 basehttp 32 15044 "POST /api/notifications/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:53:30,856 log 32 15044 Unauthorized: /api/notifications/
+WARNING 2025-08-03 15:53:30,857 basehttp 32 15044 "POST /api/notifications/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:53:32,784 log 32 15044 Unauthorized: /api/notifications/
+WARNING 2025-08-03 15:53:32,785 basehttp 32 15044 "POST /api/notifications/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:53:57,229 log 32 15044 Unauthorized: /api/products/
+WARNING 2025-08-03 15:53:57,231 basehttp 32 15044 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:53:57,237 log 32 15044 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:53:57,238 basehttp 32 15044 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:53:57,247 log 32 15044 Unauthorized: /api/products/
+WARNING 2025-08-03 15:53:57,247 basehttp 32 15044 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:53:57,262 log 32 15044 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:53:57,266 basehttp 32 15044 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:53:57,342 log 32 14736 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:53:57,343 basehttp 32 14736 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:53:57,354 log 32 14736 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:53:57,355 basehttp 32 14736 "GET /api/customers/ HTTP/1.1" 401 27
+INFO 2025-08-03 15:54:06,322 autoreload 32 1052 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 15:54:08,995 autoreload 15264 14136 Watching for file changes with StatReloader
+WARNING 2025-08-03 15:54:09,886 log 15264 5904 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:54:09,886 log 15264 2008 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:54:09,886 basehttp 15264 5904 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:54:09,886 log 15264 17396 Unauthorized: /api/products/
+WARNING 2025-08-03 15:54:09,886 basehttp 15264 2008 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:54:09,904 basehttp 15264 17396 "GET /api/products/ HTTP/1.1" 401 27
+INFO 2025-08-03 15:54:37,496 autoreload 15264 14136 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 15:54:39,191 autoreload 15628 13012 Watching for file changes with StatReloader
+WARNING 2025-08-03 15:55:21,729 log 15628 13176 Unauthorized: /api/customers/
+WARNING 2025-08-03 15:55:21,729 basehttp 15628 13176 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:55:21,786 log 15628 10084 Unauthorized: /api/sales/
+WARNING 2025-08-03 15:55:21,788 basehttp 15628 10084 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 15:55:21,836 log 15628 16820 Unauthorized: /api/products/
+WARNING 2025-08-03 15:55:21,852 basehttp 15628 16820 "GET /api/products/ HTTP/1.1" 401 27
+WARNING 2025-08-03 16:06:11,767 log 15628 5160 Unauthorized: /api/customers/
+WARNING 2025-08-03 16:06:11,767 basehttp 15628 5160 "GET /api/customers/ HTTP/1.1" 401 27
+WARNING 2025-08-03 16:06:11,808 log 15628 11660 Unauthorized: /api/sales/
+WARNING 2025-08-03 16:06:11,808 log 15628 3152 Unauthorized: /api/products/
+WARNING 2025-08-03 16:06:11,824 basehttp 15628 11660 "GET /api/sales/ HTTP/1.1" 401 27
+WARNING 2025-08-03 16:06:11,824 basehttp 15628 3152 "GET /api/products/ HTTP/1.1" 401 27
+INFO 2025-08-03 16:09:16,196 autoreload 2520 15972 Watching for file changes with StatReloader
+INFO 2025-08-03 16:09:50,659 autoreload 2520 15972 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 16:09:51,005 autoreload 15628 13012 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 16:09:52,223 autoreload 13520 5844 Watching for file changes with StatReloader
+INFO 2025-08-03 16:09:53,215 autoreload 7644 16128 Watching for file changes with StatReloader
+INFO 2025-08-03 16:12:16,932 autoreload 17320 3844 Watching for file changes with StatReloader
+INFO 2025-08-03 16:14:28,018 autoreload 13520 5844 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 16:14:28,286 autoreload 7644 16128 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 16:14:31,380 autoreload 1964 13000 Watching for file changes with StatReloader
+INFO 2025-08-03 16:14:32,124 autoreload 15200 1340 Watching for file changes with StatReloader
+INFO 2025-08-03 16:19:26,784 autoreload 16504 16936 Watching for file changes with StatReloader
+INFO 2025-08-03 16:21:19,082 autoreload 14492 9032 Watching for file changes with StatReloader
+INFO 2025-08-03 16:26:43,710 autoreload 15200 1340 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:26:45,519 autoreload 15052 16432 Watching for file changes with StatReloader
+INFO 2025-08-03 16:26:56,549 autoreload 15052 16432 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:27:00,067 autoreload 14460 13844 Watching for file changes with StatReloader
+INFO 2025-08-03 16:29:02,586 autoreload 4928 10132 Watching for file changes with StatReloader
+INFO 2025-08-03 16:29:35,848 autoreload 4928 10132 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:29:37,613 autoreload 17132 16368 Watching for file changes with StatReloader
+INFO 2025-08-03 16:29:48,259 autoreload 17132 16368 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:29:50,313 autoreload 12532 13968 Watching for file changes with StatReloader
+INFO 2025-08-03 16:29:57,620 autoreload 12532 13968 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:29:59,716 autoreload 15492 4784 Watching for file changes with StatReloader
+INFO 2025-08-03 16:33:44,193 basehttp 15492 14312 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+INFO 2025-08-03 16:33:44,199 basehttp 15492 1444 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+WARNING 2025-08-03 16:33:44,217 log 15492 14312 Unauthorized: /api/dashboard-stats/
+WARNING 2025-08-03 16:33:44,217 basehttp 15492 14312 "GET /api/dashboard-stats/ HTTP/1.1" 401 58
+WARNING 2025-08-03 16:33:44,226 log 15492 14312 Unauthorized: /api/dashboard-stats/
+INFO 2025-08-03 16:33:44,228 basehttp 15492 1444 "OPTIONS /api/products/ HTTP/1.1" 200 0
+WARNING 2025-08-03 16:33:44,231 basehttp 15492 14312 "GET /api/dashboard-stats/ HTTP/1.1" 401 58
+INFO 2025-08-03 16:33:44,436 basehttp 15492 1444 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 16:33:44,441 basehttp 15492 1444 "OPTIONS /api/users/ HTTP/1.1" 200 0
+WARNING 2025-08-03 16:33:44,441 log 15492 1444 Unauthorized: /api/users/
+WARNING 2025-08-03 16:33:44,468 basehttp 15492 1444 "GET /api/users/ HTTP/1.1" 401 58
+INFO 2025-08-03 16:33:44,545 basehttp 15492 1444 "GET /api/customers/ HTTP/1.1" 200 1325
+INFO 2025-08-03 16:33:44,558 basehttp 15492 1444 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+INFO 2025-08-03 16:33:44,583 basehttp 15492 14312 "GET /api/products/ HTTP/1.1" 200 916
+WARNING 2025-08-03 16:33:44,593 log 15492 14312 Unauthorized: /api/users/
+WARNING 2025-08-03 16:33:44,596 basehttp 15492 14312 "GET /api/users/ HTTP/1.1" 401 58
+INFO 2025-08-03 16:33:44,655 basehttp 15492 14312 "GET /api/customers/ HTTP/1.1" 200 1325
+INFO 2025-08-03 16:33:44,657 basehttp 15492 1444 "GET /api/sales/ HTTP/1.1" 200 4666
+INFO 2025-08-03 16:33:44,679 basehttp 15492 1444 "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+INFO 2025-08-03 16:33:44,690 basehttp 15492 1444 "GET /api/notifications/ HTTP/1.1" 200 2
+INFO 2025-08-03 16:33:44,699 basehttp 15492 1444 "OPTIONS /api/audit-logs/ HTTP/1.1" 200 0
+WARNING 2025-08-03 16:33:44,705 log 15492 1444 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 16:33:44,708 basehttp 15492 1444 "GET /api/audit-logs/ HTTP/1.1" 401 58
+INFO 2025-08-03 16:33:44,757 basehttp 15492 14312 "GET /api/sales/ HTTP/1.1" 200 4666
+INFO 2025-08-03 16:33:44,771 basehttp 15492 14312 "GET /api/notifications/ HTTP/1.1" 200 2
+WARNING 2025-08-03 16:33:44,779 log 15492 14312 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 16:33:44,779 basehttp 15492 14312 "GET /api/audit-logs/ HTTP/1.1" 401 58
+INFO 2025-08-03 16:35:49,951 basehttp 15492 8168 "OPTIONS /api/admin/login/ HTTP/1.1" 200 0
+WARNING 2025-08-03 16:35:51,052 log 15492 8168 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 16:35:51,052 basehttp 15492 8168 "POST /api/admin/login/ HTTP/1.1" 401 31
+WARNING 2025-08-03 16:36:03,081 log 15492 8168 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 16:36:03,081 basehttp 15492 8168 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-03 16:39:46,554 autoreload 14128 9568 Watching for file changes with StatReloader
+INFO 2025-08-03 16:41:29,654 autoreload 15608 10528 Watching for file changes with StatReloader
+WARNING 2025-08-03 16:42:34,264 log 15492 8332 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 16:42:34,264 basehttp 15492 8332 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-03 16:43:31,247 basehttp 15492 8332 "OPTIONS /api/admin/register/ HTTP/1.1" 200 0
+INFO 2025-08-03 16:43:32,240 basehttp 15492 8332 "POST /api/admin/register/ HTTP/1.1" 200 52
+WARNING 2025-08-03 16:43:46,098 log 15492 8332 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 16:43:46,098 basehttp 15492 8332 "POST /api/admin/login/ HTTP/1.1" 401 31
+WARNING 2025-08-03 16:44:04,417 log 15492 8332 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 16:44:04,417 basehttp 15492 8332 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-03 16:44:48,230 autoreload 15492 4784 D:\projects\Inventory\Inv\inventory_project\inventory\urls.py changed, reloading.
+INFO 2025-08-03 16:44:48,309 autoreload 14128 9568 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 16:44:49,451 autoreload 15608 10528 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 16:45:28,960 autoreload 868 12228 Watching for file changes with StatReloader
+INFO 2025-08-03 16:45:29,772 autoreload 11696 16120 Watching for file changes with StatReloader
+INFO 2025-08-03 16:45:50,165 autoreload 11696 16120 D:\projects\Inventory\Inv\inventory_project\inventory\models.py changed, reloading.
+INFO 2025-08-03 16:45:50,181 autoreload 868 12228 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 16:46:35,111 autoreload 2188 2196 Watching for file changes with StatReloader
+INFO 2025-08-03 16:46:35,764 autoreload 13340 12156 Watching for file changes with StatReloader
+INFO 2025-08-03 16:46:36,500 autoreload 8512 3068 Watching for file changes with StatReloader
+INFO 2025-08-03 16:47:08,883 autoreload 2188 2196 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 16:47:09,648 autoreload 8512 3068 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 16:47:09,810 autoreload 13340 12156 D:\projects\Inventory\Inv\inventory_project\inventory\serializers.py changed, reloading.
+INFO 2025-08-03 16:47:39,344 autoreload 16012 5932 Watching for file changes with StatReloader
+INFO 2025-08-03 16:47:40,202 autoreload 3432 15860 Watching for file changes with StatReloader
+INFO 2025-08-03 16:47:40,202 autoreload 15688 3832 Watching for file changes with StatReloader
+WARNING 2025-08-03 16:48:22,591 log 3432 12928 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 16:48:22,594 basehttp 3432 12928 "POST /api/admin/login/ HTTP/1.1" 401 58
+INFO 2025-08-03 16:48:57,354 autoreload 3432 15860 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:48:57,503 autoreload 15688 3832 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:49:08,583 autoreload 1580 8564 Watching for file changes with StatReloader
+INFO 2025-08-03 16:49:08,737 autoreload 11580 4676 Watching for file changes with StatReloader
+INFO 2025-08-03 16:49:12,592 autoreload 1580 8564 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:49:12,684 autoreload 11580 4676 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:49:18,529 autoreload 4108 11412 Watching for file changes with StatReloader
+INFO 2025-08-03 16:49:18,648 autoreload 15400 15776 Watching for file changes with StatReloader
+INFO 2025-08-03 16:49:46,623 autoreload 4108 11412 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:49:46,806 autoreload 15400 15776 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:49:52,326 autoreload 13676 14912 Watching for file changes with StatReloader
+INFO 2025-08-03 16:49:52,988 autoreload 11712 9668 Watching for file changes with StatReloader
+WARNING 2025-08-03 16:50:20,206 log 13676 14360 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 16:50:20,206 basehttp 13676 14360 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-03 16:52:36,005 autoreload 13676 14912 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:52:36,189 autoreload 11712 9668 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:52:38,586 autoreload 11556 12712 Watching for file changes with StatReloader
+INFO 2025-08-03 16:52:38,586 autoreload 15764 3004 Watching for file changes with StatReloader
+INFO 2025-08-03 16:52:51,230 autoreload 11556 12712 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:52:52,284 autoreload 15764 3004 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:52:54,269 autoreload 3968 5904 Watching for file changes with StatReloader
+INFO 2025-08-03 16:52:55,327 autoreload 6576 5240 Watching for file changes with StatReloader
+INFO 2025-08-03 16:55:29,188 autoreload 6576 5240 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:55:30,082 autoreload 3968 5904 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:55:31,693 autoreload 16716 17332 Watching for file changes with StatReloader
+INFO 2025-08-03 16:55:32,423 autoreload 10536 9084 Watching for file changes with StatReloader
+INFO 2025-08-03 16:55:58,783 autoreload 16716 17332 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:55:59,577 autoreload 10536 9084 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:56:01,668 autoreload 2756 9488 Watching for file changes with StatReloader
+INFO 2025-08-03 16:56:01,968 autoreload 5304 5976 Watching for file changes with StatReloader
+INFO 2025-08-03 16:56:13,643 autoreload 5304 5976 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:56:14,267 autoreload 2756 9488 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:56:15,532 autoreload 15484 5884 Watching for file changes with StatReloader
+INFO 2025-08-03 16:56:16,068 autoreload 12164 13596 Watching for file changes with StatReloader
+INFO 2025-08-03 16:56:24,232 autoreload 15484 5884 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:56:24,738 autoreload 12164 13596 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:56:26,710 autoreload 16372 16596 Watching for file changes with StatReloader
+INFO 2025-08-03 16:56:26,847 autoreload 16532 2212 Watching for file changes with StatReloader
+INFO 2025-08-03 16:56:35,943 autoreload 16532 2212 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:56:36,667 autoreload 16372 16596 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:56:38,038 autoreload 17180 2308 Watching for file changes with StatReloader
+INFO 2025-08-03 16:56:38,437 autoreload 3948 8372 Watching for file changes with StatReloader
+INFO 2025-08-03 16:56:49,865 autoreload 17180 2308 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:56:50,508 autoreload 3948 8372 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:56:54,684 autoreload 9232 15972 Watching for file changes with StatReloader
+INFO 2025-08-03 16:56:54,881 autoreload 10168 124 Watching for file changes with StatReloader
+INFO 2025-08-03 16:57:00,895 autoreload 9232 15972 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:57:01,093 autoreload 10168 124 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:57:02,789 autoreload 12720 8876 Watching for file changes with StatReloader
+INFO 2025-08-03 16:57:02,823 autoreload 10064 2224 Watching for file changes with StatReloader
+INFO 2025-08-03 16:57:12,333 autoreload 12720 8876 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:57:12,473 autoreload 10064 2224 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:57:14,191 autoreload 15800 12032 Watching for file changes with StatReloader
+INFO 2025-08-03 16:57:14,286 autoreload 3400 6976 Watching for file changes with StatReloader
+INFO 2025-08-03 16:57:25,157 autoreload 15800 12032 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:57:25,281 autoreload 3400 6976 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:57:26,988 autoreload 16976 3396 Watching for file changes with StatReloader
+INFO 2025-08-03 16:57:27,041 autoreload 7164 5028 Watching for file changes with StatReloader
+INFO 2025-08-03 16:57:41,215 autoreload 16976 3396 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:57:41,264 autoreload 7164 5028 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:57:43,276 autoreload 868 17352 Watching for file changes with StatReloader
+
+INFO 2025-08-03 16:57:57,455 autoreload 868 17352 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:57:57,488 autoreload 10724 13352 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:57:59,648 autoreload 7768 4644 Watching for file changes with StatReloader
+INFO 2025-08-03 16:57:59,748 autoreload 16380 8104 Watching for file changes with StatReloader
+INFO 2025-08-03 16:58:10,096 autoreload 16380 8104 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:58:10,146 autoreload 7768 4644 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:58:12,398 autoreload 10420 15184 Watching for file changes with StatReloader
+INFO 2025-08-03 16:58:12,435 autoreload 15840 8776 Watching for file changes with StatReloader
+INFO 2025-08-03 16:58:21,154 autoreload 15840 8776 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:58:21,293 autoreload 10420 15184 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:58:23,633 autoreload 13596 12600 Watching for file changes with StatReloader
+INFO 2025-08-03 16:58:23,668 autoreload 11984 7700 Watching for file changes with StatReloader
+INFO 2025-08-03 16:58:35,627 autoreload 13596 12600 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:58:35,659 autoreload 11984 7700 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 16:58:38,647 autoreload 15848 16916 Watching for file changes with StatReloader
+INFO 2025-08-03 16:58:38,647 autoreload 15112 12508 Watching for file changes with StatReloader
+WARNING 2025-08-03 17:07:50,109 log 15112 8884 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 17:07:50,110 basehttp 15112 8884 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-03 17:08:13,348 basehttp 15112 8884 "POST /api/admin/register/ HTTP/1.1" 200 52
+INFO 2025-08-03 17:08:26,211 basehttp 15112 8884 "POST /api/admin/login/ HTTP/1.1" 200 52
+INFO 2025-08-03 17:08:26,293 basehttp 15112 8884 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:08:26,347 basehttp 15112 8884 "GET /api/dashboard-stats/ HTTP/1.1" 200 98
+INFO 2025-08-03 17:08:26,353 basehttp 15112 15588 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:08:26,369 basehttp 15112 8884 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:08:26,408 basehttp 15112 8884 "GET /api/dashboard-stats/ HTTP/1.1" 200 98
+INFO 2025-08-03 17:08:26,563 basehttp 15112 15588 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:08:26,577 basehttp 15112 8884 "OPTIONS /api/users/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:08:26,578 basehttp 15112 15588 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:08:26,593 basehttp 15112 8884 "GET /api/users/ HTTP/1.1" 200 472
+INFO 2025-08-03 17:08:26,604 basehttp 15112 8884 "GET /api/users/ HTTP/1.1" 200 472
+INFO 2025-08-03 17:08:26,621 basehttp 15112 8884 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 17:08:26,631 basehttp 15112 15588 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:08:26,632 basehttp 15112 8884 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 17:08:26,652 basehttp 15112 8884 "GET /api/sales/ HTTP/1.1" 200 2045
+INFO 2025-08-03 17:08:26,663 basehttp 15112 15588 "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:08:26,665 basehttp 15112 8884 "GET /api/sales/ HTTP/1.1" 200 2045
+WARNING 2025-08-03 17:08:26,675 log 15112 15588 Unauthorized: /api/notifications/
+WARNING 2025-08-03 17:08:26,678 basehttp 15112 15588 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:08:26,684 log 15112 15588 Unauthorized: /api/notifications/
+INFO 2025-08-03 17:08:26,688 basehttp 15112 8884 "OPTIONS /api/audit-logs/ HTTP/1.1" 200 0
+WARNING 2025-08-03 17:08:26,691 basehttp 15112 15588 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:08:26,696 log 15112 8884 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:08:26,702 basehttp 15112 8884 "GET /api/audit-logs/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:08:26,708 log 15112 8884 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:08:26,710 basehttp 15112 8884 "GET /api/audit-logs/ HTTP/1.1" 401 58
+INFO 2025-08-03 17:09:43,795 basehttp 15112 8884 "GET /api/dashboard-stats/ HTTP/1.1" 200 98
+INFO 2025-08-03 17:09:43,811 basehttp 15112 15588 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:09:43,812 basehttp 15112 8884 "GET /api/dashboard-stats/ HTTP/1.1" 200 98
+INFO 2025-08-03 17:09:43,839 basehttp 15112 8884 "GET /api/users/ HTTP/1.1" 200 472
+INFO 2025-08-03 17:09:43,840 basehttp 15112 15588 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:09:43,871 basehttp 15112 15588 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 17:09:43,886 basehttp 15112 15588 "GET /api/users/ HTTP/1.1" 200 472
+INFO 2025-08-03 17:09:43,916 basehttp 15112 8884 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 17:09:43,917 basehttp 15112 15588 "GET /api/sales/ HTTP/1.1" 200 2045
+WARNING 2025-08-03 17:09:43,940 log 15112 15588 Unauthorized: /api/notifications/
+INFO 2025-08-03 17:09:43,948 basehttp 15112 8884 "GET /api/sales/ HTTP/1.1" 200 2045
+WARNING 2025-08-03 17:09:43,948 basehttp 15112 15588 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:09:43,957 log 15112 8884 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:09:43,958 basehttp 15112 8884 "GET /api/audit-logs/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:09:43,969 log 15112 8884 Unauthorized: /api/notifications/
+WARNING 2025-08-03 17:09:43,970 basehttp 15112 8884 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:09:43,979 log 15112 8884 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:09:43,982 basehttp 15112 8884 "GET /api/audit-logs/ HTTP/1.1" 401 58
+INFO 2025-08-03 17:11:00,757 basehttp 15112 8884 "OPTIONS /api/salesperson/auth/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:11:03,398 basehttp 15112 8884 "POST /api/salesperson/auth/ HTTP/1.1" 200 52
+WARNING 2025-08-03 17:12:36,946 log 15112 8884 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 17:12:36,947 basehttp 15112 8884 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-03 17:12:45,164 basehttp 15112 8884 "POST /api/admin/login/ HTTP/1.1" 200 52
+INFO 2025-08-03 17:12:45,215 basehttp 15112 8884 "GET /api/dashboard-stats/ HTTP/1.1" 200 98
+INFO 2025-08-03 17:12:45,242 basehttp 15112 8884 "GET /api/dashboard-stats/ HTTP/1.1" 200 98
+INFO 2025-08-03 17:12:45,242 basehttp 15112 15588 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:12:45,265 basehttp 15112 8884 "GET /api/users/ HTTP/1.1" 200 550
+INFO 2025-08-03 17:12:45,266 basehttp 15112 15588 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:12:45,273 basehttp 15112 15588 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 17:12:45,282 basehttp 15112 15588 "GET /api/users/ HTTP/1.1" 200 550
+INFO 2025-08-03 17:12:45,293 basehttp 15112 15588 "GET /api/sales/ HTTP/1.1" 200 2045
+INFO 2025-08-03 17:12:45,293 basehttp 15112 8884 "GET /api/customers/ HTTP/1.1" 200 732
+WARNING 2025-08-03 17:12:45,302 log 15112 8884 Unauthorized: /api/notifications/
+WARNING 2025-08-03 17:12:45,303 basehttp 15112 8884 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 17:12:45,311 basehttp 15112 8884 "GET /api/sales/ HTTP/1.1" 200 2045
+WARNING 2025-08-03 17:12:45,315 log 15112 15588 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:12:45,318 basehttp 15112 15588 "GET /api/audit-logs/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:12:45,321 log 15112 8884 Unauthorized: /api/notifications/
+WARNING 2025-08-03 17:12:45,322 basehttp 15112 8884 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:12:45,331 log 15112 8884 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:12:45,332 basehttp 15112 8884 "GET /api/audit-logs/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:17:26,422 log 15112 868 Bad Request: /api/products/
+WARNING 2025-08-03 17:17:26,422 basehttp 15112 868 "POST /api/products/ HTTP/1.1" 400 88
+WARNING 2025-08-03 17:17:27,806 log 15112 868 Bad Request: /api/products/
+WARNING 2025-08-03 17:17:27,807 basehttp 15112 868 "POST /api/products/ HTTP/1.1" 400 88
+INFO 2025-08-03 17:17:41,878 autoreload 15848 16916 D:\projects\Inventory\Inv\inventory_project\inventory\models.py changed, reloading.
+INFO 2025-08-03 17:17:42,180 autoreload 15112 12508 D:\projects\Inventory\Inv\inventory_project\inventory\models.py changed, reloading.
+INFO 2025-08-03 17:17:44,289 autoreload 8724 3300 Watching for file changes with StatReloader
+INFO 2025-08-03 17:17:44,570 autoreload 3948 2620 Watching for file changes with StatReloader
+INFO 2025-08-03 17:17:56,666 autoreload 8724 3300 D:\projects\Inventory\Inv\inventory_project\inventory\models.py changed, reloading.
+INFO 2025-08-03 17:17:56,718 autoreload 3948 2620 D:\projects\Inventory\Inv\inventory_project\inventory\models.py changed, reloading.
+INFO 2025-08-03 17:17:58,237 autoreload 9968 13380 Watching for file changes with StatReloader
+INFO 2025-08-03 17:17:58,274 autoreload 17068 13172 Watching for file changes with StatReloader
+INFO 2025-08-03 17:18:13,549 autoreload 17068 13172 D:\projects\Inventory\Inv\inventory_project\inventory\models.py changed, reloading.
+INFO 2025-08-03 17:18:13,591 autoreload 9968 13380 D:\projects\Inventory\Inv\inventory_project\inventory\models.py changed, reloading.
+INFO 2025-08-03 17:18:15,090 autoreload 14268 14764 Watching for file changes with StatReloader
+INFO 2025-08-03 17:18:15,111 autoreload 12064 5992 Watching for file changes with StatReloader
+INFO 2025-08-03 17:18:30,611 autoreload 12064 5992 D:\projects\Inventory\Inv\inventory_project\inventory\serializers.py changed, reloading.
+INFO 2025-08-03 17:18:30,640 autoreload 14268 14764 D:\projects\Inventory\Inv\inventory_project\inventory\serializers.py changed, reloading.
+INFO 2025-08-03 17:18:32,345 autoreload 9008 12228 Watching for file changes with StatReloader
+INFO 2025-08-03 17:18:32,362 autoreload 16704 14828 Watching for file changes with StatReloader
+INFO 2025-08-03 17:18:45,630 autoreload 9008 12228 D:\projects\Inventory\Inv\inventory_project\inventory\serializers.py changed, reloading.
+INFO 2025-08-03 17:18:45,770 autoreload 16704 14828 D:\projects\Inventory\Inv\inventory_project\inventory\serializers.py changed, reloading.
+INFO 2025-08-03 17:18:47,442 autoreload 16068 9704 Watching for file changes with StatReloader
+INFO 2025-08-03 17:18:47,608 autoreload 16388 11772 Watching for file changes with StatReloader
+INFO 2025-08-03 17:18:58,536 autoreload 16068 9704 D:\projects\Inventory\Inv\inventory_project\inventory\serializers.py changed, reloading.
+INFO 2025-08-03 17:18:58,632 autoreload 16388 11772 D:\projects\Inventory\Inv\inventory_project\inventory\serializers.py changed, reloading.
+INFO 2025-08-03 17:19:00,114 autoreload 15512 15680 Watching for file changes with StatReloader
+INFO 2025-08-03 17:19:00,169 autoreload 11624 11812 Watching for file changes with StatReloader
+INFO 2025-08-03 17:24:03,306 basehttp 15512 13720 "OPTIONS /api/customers/1/ HTTP/1.1" 200 0
+ERROR 2025-08-03 17:24:03,488 log 15512 13720 Internal Server Error: /api/customers/1/
+Traceback (most recent call last):
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\psycopg\cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UndefinedColumn: column inventory_customer.notes does not exist
+LINE 1: ...ustomer"."phone", "inventory_customer"."address", "inventory...
+                                                             ^
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\projects\Inventory\Inv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\projects\Inventory\Inv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\projects\Inventory\Inv\inventory_project\inventory\views.py", line 217, in delete
+    customer = self.get_object(pk)
+               ^^^^^^^^^^^^^^^^^^^
+  File "d:\projects\Inventory\Inv\inventory_project\inventory\views.py", line 195, in get_object
+    return Customer.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\query.py", line 629, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\psycopg\cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.ProgrammingError: column inventory_customer.notes does not exist
+LINE 1: ...ustomer"."phone", "inventory_customer"."address", "inventory...
+                                                             ^
+ERROR 2025-08-03 17:24:03,506 basehttp 15512 13720 "DELETE /api/customers/1/ HTTP/1.1" 500 176851
+ERROR 2025-08-03 17:24:04,913 log 15512 13720 Internal Server Error: /api/customers/1/
+Traceback (most recent call last):
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\psycopg\cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+psycopg.errors.UndefinedColumn: column inventory_customer.notes does not exist
+LINE 1: ...ustomer"."phone", "inventory_customer"."address", "inventory...
+                                                             ^
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "D:\projects\Inventory\Inv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "D:\projects\Inventory\Inv\Lib\site-packages\rest_framework\views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\projects\Inventory\Inv\inventory_project\inventory\views.py", line 217, in delete
+    customer = self.get_object(pk)
+               ^^^^^^^^^^^^^^^^^^^
+  File "d:\projects\Inventory\Inv\inventory_project\inventory\views.py", line 195, in get_object
+    return Customer.objects.get(pk=pk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\query.py", line 629, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\query.py", line 1949, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\projects\Inventory\Inv\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\Inventory\Inv\Lib\site-packages\psycopg\cursor.py", line 97, in execute
+    raise ex.with_traceback(None)
+django.db.utils.ProgrammingError: column inventory_customer.notes does not exist
+LINE 1: ...ustomer"."phone", "inventory_customer"."address", "inventory...
+                                                             ^
+ERROR 2025-08-03 17:24:04,930 basehttp 15512 13720 "DELETE /api/customers/1/ HTTP/1.1" 500 176851
+INFO 2025-08-03 17:31:23,298 autoreload 11628 8788 Watching for file changes with StatReloader
+INFO 2025-08-03 17:31:24,050 basehttp 11628 10724 "GET /api/dashboard-stats/ HTTP/1.1" 200 98
+INFO 2025-08-03 17:31:24,050 basehttp 11628 10724 "GET /api/dashboard-stats/ HTTP/1.1" 200 98
+INFO 2025-08-03 17:31:24,187 basehttp 11628 9176 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:31:24,198 basehttp 11628 9176 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:31:24,199 basehttp 11628 10724 "GET /api/users/ HTTP/1.1" 200 633
+INFO 2025-08-03 17:31:24,235 basehttp 11628 10724 "GET /api/users/ HTTP/1.1" 200 633
+INFO 2025-08-03 17:31:24,235 basehttp 11628 9176 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 17:31:24,262 basehttp 11628 9176 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 17:31:24,276 basehttp 11628 9176 "GET /api/sales/ HTTP/1.1" 200 2045
+INFO 2025-08-03 17:31:24,298 basehttp 11628 9176 "GET /api/sales/ HTTP/1.1" 200 2045
+WARNING 2025-08-03 17:31:24,310 log 11628 9176 Unauthorized: /api/notifications/
+WARNING 2025-08-03 17:31:24,315 basehttp 11628 9176 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:31:24,330 log 11628 9176 Unauthorized: /api/notifications/
+WARNING 2025-08-03 17:31:24,330 basehttp 11628 9176 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:31:24,332 log 11628 9176 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:31:24,332 basehttp 11628 9176 "GET /api/audit-logs/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:31:24,345 log 11628 9176 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:31:24,347 basehttp 11628 9176 "GET /api/audit-logs/ HTTP/1.1" 401 58
+INFO 2025-08-03 17:31:41,139 basehttp 11628 9176 "OPTIONS /api/users/21/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:31:41,205 basehttp 11628 9176 "DELETE /api/users/21/ HTTP/1.1" 204 0
+INFO 2025-08-03 17:31:42,669 basehttp 11628 9176 "OPTIONS /api/users/22/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:31:42,684 basehttp 11628 9176 "DELETE /api/users/22/ HTTP/1.1" 204 0
+INFO 2025-08-03 17:31:43,841 basehttp 11628 9176 "OPTIONS /api/users/23/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:31:43,853 basehttp 11628 9176 "DELETE /api/users/23/ HTTP/1.1" 204 0
+INFO 2025-08-03 17:31:45,840 basehttp 11628 9176 "OPTIONS /api/users/24/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:31:45,851 basehttp 11628 9176 "DELETE /api/users/24/ HTTP/1.1" 204 0
+INFO 2025-08-03 17:31:47,024 basehttp 11628 9176 "OPTIONS /api/users/generate-token/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:31:47,032 basehttp 11628 9176 "POST /api/users/generate-token/ HTTP/1.1" 200 20
+INFO 2025-08-03 17:31:47,044 basehttp 11628 9176 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 17:31:47,097 basehttp 11628 9176 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:31:47,118 basehttp 11628 9176 "GET /api/users/ HTTP/1.1" 200 323
+INFO 2025-08-03 17:31:47,126 basehttp 11628 9176 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 17:31:47,142 basehttp 11628 9176 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 17:31:47,147 log 11628 9176 Unauthorized: /api/notifications/
+WARNING 2025-08-03 17:31:47,147 basehttp 11628 9176 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:31:47,159 log 11628 9176 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:31:47,165 basehttp 11628 9176 "GET /api/audit-logs/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:44:08,851 log 16360 396 Bad Request: /api/products/
+WARNING 2025-08-03 17:49:04,889 log 13604 17172 Bad Request: /api/sales/
+WARNING 2025-08-03 17:49:05,121 log 13604 17172 Method Not Allowed: /api/generate-token/
+WARNING 2025-08-03 17:49:59,496 log 11668 7452 Bad Request: /api/sales/
+INFO 2025-08-03 17:52:04,563 autoreload 6572 15840 Watching for file changes with StatReloader
+INFO 2025-08-03 17:52:35,230 basehttp 6572 16052 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 17:52:35,394 basehttp 6572 16052 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 17:52:35,429 basehttp 6572 16052 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:52:35,461 basehttp 6572 16052 "GET /api/products/ HTTP/1.1" 200 916
+INFO 2025-08-03 17:52:35,786 basehttp 6572 11824 "GET /api/users/ HTTP/1.1" 200 323
+INFO 2025-08-03 17:52:35,809 basehttp 6572 11824 "GET /api/users/ HTTP/1.1" 200 323
+INFO 2025-08-03 17:52:35,835 basehttp 6572 16052 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 17:52:35,851 basehttp 6572 11824 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 17:52:35,878 basehttp 6572 16052 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 17:52:35,896 basehttp 6572 11824 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 17:52:35,917 log 6572 16052 Unauthorized: /api/notifications/
+WARNING 2025-08-03 17:52:35,942 basehttp 6572 16052 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:52:35,964 log 6572 16052 Unauthorized: /api/notifications/
+WARNING 2025-08-03 17:52:35,966 log 6572 11824 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:52:35,991 basehttp 6572 16052 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:52:36,005 basehttp 6572 11824 "GET /api/audit-logs/ HTTP/1.1" 401 58
+WARNING 2025-08-03 17:52:36,010 log 6572 11824 Unauthorized: /api/audit-logs/
+WARNING 2025-08-03 17:52:36,031 basehttp 6572 11824 "GET /api/audit-logs/ HTTP/1.1" 401 58
+INFO 2025-08-03 17:52:40,319 basehttp 6572 11824 "OPTIONS /api/users/25/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:52:40,351 basehttp 6572 11824 "DELETE /api/users/25/ HTTP/1.1" 204 0
+INFO 2025-08-03 17:52:41,715 basehttp 6572 11824 "OPTIONS /api/users/26/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:52:41,724 basehttp 6572 11824 "DELETE /api/users/26/ HTTP/1.1" 204 0
+WARNING 2025-08-03 17:53:13,227 log 6572 11824 Bad Request: /api/products/
+WARNING 2025-08-03 17:53:13,227 basehttp 6572 11824 "POST /api/products/ HTTP/1.1" 400 88
+WARNING 2025-08-03 17:53:15,265 log 6572 11824 Bad Request: /api/products/
+WARNING 2025-08-03 17:53:15,266 basehttp 6572 11824 "POST /api/products/ HTTP/1.1" 400 88
+WARNING 2025-08-03 17:53:22,457 log 6572 11824 Bad Request: /api/products/
+WARNING 2025-08-03 17:53:22,459 basehttp 6572 11824 "POST /api/products/ HTTP/1.1" 400 88
+INFO 2025-08-03 17:54:02,984 basehttp 6572 11824 "OPTIONS /api/products/0/ HTTP/1.1" 200 0
+WARNING 2025-08-03 17:54:02,988 log 6572 11824 Not Found: /api/products/0/
+WARNING 2025-08-03 17:54:02,988 basehttp 6572 11824 "PUT /api/products/0/ HTTP/1.1" 404 22
+WARNING 2025-08-03 17:54:03,792 log 6572 11824 Not Found: /api/products/0/
+WARNING 2025-08-03 17:54:03,793 basehttp 6572 11824 "PUT /api/products/0/ HTTP/1.1" 404 22
+WARNING 2025-08-03 17:54:11,625 log 6572 11824 Not Found: /api/products/0/
+WARNING 2025-08-03 17:54:11,628 basehttp 6572 11824 "PUT /api/products/0/ HTTP/1.1" 404 22
+INFO 2025-08-03 17:54:53,094 basehttp 6572 11824 "OPTIONS /api/products/5/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:54:53,102 basehttp 6572 11824 "DELETE /api/products/5/ HTTP/1.1" 204 0
+INFO 2025-08-03 17:55:04,653 basehttp 6572 11824 "OPTIONS /api/customers/0/ HTTP/1.1" 200 0
+WARNING 2025-08-03 17:55:04,657 log 6572 11824 Not Found: /api/customers/0/
+WARNING 2025-08-03 17:55:04,658 basehttp 6572 11824 "PUT /api/customers/0/ HTTP/1.1" 404 22
+WARNING 2025-08-03 17:55:05,549 log 6572 11824 Not Found: /api/customers/0/
+WARNING 2025-08-03 17:55:05,550 basehttp 6572 11824 "PUT /api/customers/0/ HTTP/1.1" 404 22
+WARNING 2025-08-03 17:55:12,560 log 6572 11824 Not Found: /api/customers/0/
+WARNING 2025-08-03 17:55:12,561 basehttp 6572 11824 "PUT /api/customers/0/ HTTP/1.1" 404 22
+INFO 2025-08-03 17:55:54,191 basehttp 6572 11824 "OPTIONS /api/customers/ HTTP/1.1" 200 0
+INFO 2025-08-03 17:55:54,311 basehttp 6572 11824 "POST /api/customers/ HTTP/1.1" 201 125
+INFO 2025-08-03 17:59:50,237 autoreload 6572 15840 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 17:59:52,469 autoreload 940 3988 Watching for file changes with StatReloader
+INFO 2025-08-03 18:00:20,587 autoreload 940 3988 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 18:00:22,314 autoreload 15220 14492 Watching for file changes with StatReloader
+INFO 2025-08-03 18:00:43,761 autoreload 15220 14492 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 18:00:45,251 autoreload 3320 4780 Watching for file changes with StatReloader
+INFO 2025-08-03 18:02:04,698 autoreload 3320 4780 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 18:02:06,746 autoreload 13784 640 Watching for file changes with StatReloader
+INFO 2025-08-03 18:10:29,515 autoreload 16400 1660 Watching for file changes with StatReloader
+INFO 2025-08-03 18:15:38,785 autoreload 5964 15400 Watching for file changes with StatReloader
+INFO 2025-08-03 18:21:23,082 autoreload 7280 15892 Watching for file changes with StatReloader
+INFO 2025-08-03 18:21:44,347 autoreload 7280 15892 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 18:21:46,577 autoreload 11312 16620 Watching for file changes with StatReloader
+INFO 2025-08-03 18:22:17,181 autoreload 11312 16620 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 18:22:19,218 autoreload 13220 16976 Watching for file changes with StatReloader
+INFO 2025-08-03 18:22:39,157 autoreload 13220 16976 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-03 18:22:40,789 autoreload 12648 17084 Watching for file changes with StatReloader
+INFO 2025-08-03 18:23:05,729 autoreload 12648 17084 D:\projects\Inventory\Inv\inventory_project\inventory\urls.py changed, reloading.
+INFO 2025-08-03 18:23:07,573 autoreload 12496 344 Watching for file changes with StatReloader
+INFO 2025-08-03 18:24:03,671 autoreload 16972 14972 Watching for file changes with StatReloader
+INFO 2025-08-03 18:25:11,060 autoreload 14268 6944 Watching for file changes with StatReloader
+WARNING 2025-08-03 18:30:16,588 log 408 9488 Bad Request: /api/sales/
+INFO 2025-08-03 18:31:13,491 basehttp 14268 5668 "GET /api/audit-logs/ HTTP/1.1" 200 2
+INFO 2025-08-03 18:31:38,711 basehttp 14268 15940 "OPTIONS /api/customers/6/ HTTP/1.1" 200 0
+INFO 2025-08-03 18:31:38,788 basehttp 14268 15940 "DELETE /api/customers/6/ HTTP/1.1" 204 0
+INFO 2025-08-03 18:31:50,212 basehttp 14268 5668 "GET /api/system-settings/ HTTP/1.1" 200 130
+WARNING 2025-08-03 18:34:15,625 log 14268 6540 Bad Request: /api/products/
+WARNING 2025-08-03 18:34:15,625 basehttp 14268 6540 "POST /api/products/ HTTP/1.1" 400 88
+WARNING 2025-08-03 18:34:16,756 log 14268 6540 Bad Request: /api/products/
+WARNING 2025-08-03 18:34:16,757 basehttp 14268 6540 "POST /api/products/ HTTP/1.1" 400 88
+INFO 2025-08-03 18:39:28,442 autoreload 14268 6944 D:\projects\Inventory\Inv\inventory_project\inventory\urls.py changed, reloading.
+INFO 2025-08-03 18:39:31,012 autoreload 10736 15628 Watching for file changes with StatReloader
+WARNING 2025-08-03 18:39:57,359 log 10736 10528 Bad Request: /api/products/
+WARNING 2025-08-03 18:39:57,359 basehttp 10736 10528 "POST /api/products/ HTTP/1.1" 400 88
+INFO 2025-08-03 18:40:16,574 autoreload 15104 1548 Watching for file changes with StatReloader
+INFO 2025-08-03 18:40:56,881 basehttp 10736 12316 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 18:40:56,900 basehttp 10736 12316 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 18:40:57,080 basehttp 10736 12536 "GET /api/products/ HTTP/1.1" 200 733
+INFO 2025-08-03 18:40:57,099 basehttp 10736 12316 "GET /api/users/ HTTP/1.1" 200 168
+INFO 2025-08-03 18:40:57,099 basehttp 10736 12536 "GET /api/products/ HTTP/1.1" 200 733
+INFO 2025-08-03 18:40:57,115 basehttp 10736 12536 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 18:40:57,115 basehttp 10736 12316 "GET /api/users/ HTTP/1.1" 200 168
+INFO 2025-08-03 18:40:57,136 basehttp 10736 12316 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 18:40:57,136 basehttp 10736 12536 "GET /api/customers/ HTTP/1.1" 200 732
+WARNING 2025-08-03 18:40:57,148 log 10736 12536 Unauthorized: /api/notifications/
+WARNING 2025-08-03 18:40:57,159 basehttp 10736 12536 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 18:40:57,159 basehttp 10736 12316 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 18:40:57,168 basehttp 10736 12316 "GET /api/audit-logs/ HTTP/1.1" 200 307
+WARNING 2025-08-03 18:40:57,177 log 10736 12316 Unauthorized: /api/notifications/
+WARNING 2025-08-03 18:40:57,177 basehttp 10736 12316 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 18:40:57,194 basehttp 10736 12316 "GET /api/audit-logs/ HTTP/1.1" 200 307
+WARNING 2025-08-03 18:41:27,345 log 10736 12316 Bad Request: /api/products/
+WARNING 2025-08-03 18:41:27,345 basehttp 10736 12316 "POST /api/products/ HTTP/1.1" 400 88
+WARNING 2025-08-03 18:41:37,410 log 10736 10628 Bad Request: /api/products/
+WARNING 2025-08-03 18:41:37,410 basehttp 10736 10628 "POST /api/products/ HTTP/1.1" 400 88
+WARNING 2025-08-03 18:41:51,370 log 10736 10628 Not Found: /api/products/0/
+WARNING 2025-08-03 18:41:51,370 basehttp 10736 10628 "PUT /api/products/0/ HTTP/1.1" 404 22
+INFO 2025-08-03 18:47:37,974 basehttp 10736 15052 "POST /api/salesperson/auth/ HTTP/1.1" 200 52
+INFO 2025-08-03 18:56:37,891 autoreload 13668 5472 Watching for file changes with StatReloader
+INFO 2025-08-03 19:12:19,681 basehttp 13668 15420 "GET /api/products/ HTTP/1.1" 200 733
+INFO 2025-08-03 19:12:31,872 basehttp 13668 15420 "GET /api/audit-logs/ HTTP/1.1" 200 460
+INFO 2025-08-03 19:12:40,648 basehttp 13668 15420 "GET /api/system-settings/ HTTP/1.1" 200 130
+INFO 2025-08-03 19:34:23,550 autoreload 10640 3048 Watching for file changes with StatReloader
+INFO 2025-08-03 19:34:26,272 basehttp 10640 8244 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 19:34:45,618 basehttp 10640 8244 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 19:48:48,187 basehttp 10640 17136 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 19:50:51,547 autoreload 13188 14316 Watching for file changes with StatReloader
+INFO 2025-08-03 19:53:59,145 basehttp 10640 5612 "GET /api/products/ HTTP/1.1" 200 733
+INFO 2025-08-03 19:56:08,627 basehttp 10640 1436 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 19:59:39,328 basehttp 10640 7204 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 19:59:51,917 basehttp 10640 7204 "GET /api/products/ HTTP/1.1" 200 733
+INFO 2025-08-03 21:11:09,099 basehttp 10640 16536 "OPTIONS /api/admin/register/ HTTP/1.1" 200 0
+INFO 2025-08-03 21:11:10,747 basehttp 10640 16536 "POST /api/admin/register/ HTTP/1.1" 200 52
+INFO 2025-08-03 21:11:18,837 basehttp 10640 16536 "OPTIONS /api/admin/login/ HTTP/1.1" 200 0
+INFO 2025-08-03 21:11:19,708 basehttp 10640 16536 "POST /api/admin/login/ HTTP/1.1" 200 52
+INFO 2025-08-03 21:11:19,775 basehttp 10640 16536 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+INFO 2025-08-03 21:11:19,789 basehttp 10640 15228 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+INFO 2025-08-03 21:11:19,817 basehttp 10640 16536 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 21:11:19,824 basehttp 10640 15228 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-08-03 21:11:19,834 basehttp 10640 16536 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 21:11:19,928 basehttp 10640 15228 "GET /api/products/ HTTP/1.1" 200 733
+INFO 2025-08-03 21:11:19,928 basehttp 10640 16536 "OPTIONS /api/users/ HTTP/1.1" 200 0
+INFO 2025-08-03 21:11:19,949 basehttp 10640 15228 "GET /api/products/ HTTP/1.1" 200 733
+INFO 2025-08-03 21:11:19,949 basehttp 10640 16536 "GET /api/users/ HTTP/1.1" 200 322
+INFO 2025-08-03 21:11:19,959 basehttp 10640 16536 "GET /api/users/ HTTP/1.1" 200 322
+INFO 2025-08-03 21:11:19,970 basehttp 10640 16536 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 21:11:19,980 basehttp 10640 15228 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+INFO 2025-08-03 21:11:19,980 basehttp 10640 16536 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 21:11:19,989 basehttp 10640 15228 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 21:11:19,996 basehttp 10640 16536 "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+INFO 2025-08-03 21:11:19,997 basehttp 10640 15228 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 21:11:20,015 log 10640 16536 Unauthorized: /api/notifications/
+WARNING 2025-08-03 21:11:20,016 basehttp 10640 16536 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 21:11:20,020 log 10640 16536 Unauthorized: /api/notifications/
+INFO 2025-08-03 21:11:20,021 basehttp 10640 15228 "OPTIONS /api/audit-logs/ HTTP/1.1" 200 0
+WARNING 2025-08-03 21:11:20,022 basehttp 10640 16536 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 21:11:20,050 basehttp 10640 16536 "GET /api/audit-logs/ HTTP/1.1" 200 1072
+INFO 2025-08-03 21:11:20,057 basehttp 10640 16536 "GET /api/audit-logs/ HTTP/1.1" 200 1072
+INFO 2025-08-03 21:11:31,095 basehttp 10640 16536 "OPTIONS /api/users/generate-token/ HTTP/1.1" 200 0
+INFO 2025-08-03 21:11:31,109 basehttp 10640 16536 "POST /api/users/generate-token/ HTTP/1.1" 200 20
+INFO 2025-08-03 21:11:31,122 basehttp 10640 16536 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 21:11:31,156 basehttp 10640 16536 "GET /api/products/ HTTP/1.1" 200 733
+INFO 2025-08-03 21:11:31,165 basehttp 10640 16536 "GET /api/users/ HTTP/1.1" 200 328
+INFO 2025-08-03 21:11:31,172 basehttp 10640 16536 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 21:11:31,184 basehttp 10640 16536 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 21:11:31,196 log 10640 16536 Unauthorized: /api/notifications/
+WARNING 2025-08-03 21:11:31,196 basehttp 10640 16536 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 21:11:31,201 basehttp 10640 16536 "GET /api/audit-logs/ HTTP/1.1" 200 1414
+INFO 2025-08-03 21:12:20,918 basehttp 10640 16536 "POST /api/products/ HTTP/1.1" 201 160
+INFO 2025-08-03 21:12:43,852 basehttp 10640 16536 "POST /api/users/generate-token/ HTTP/1.1" 200 20
+INFO 2025-08-03 21:12:43,864 basehttp 10640 16536 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 21:12:43,878 basehttp 10640 16536 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 21:12:43,886 basehttp 10640 16536 "GET /api/users/ HTTP/1.1" 200 328
+INFO 2025-08-03 21:12:43,899 basehttp 10640 16536 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 21:12:43,906 basehttp 10640 16536 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 21:12:43,911 log 10640 16536 Unauthorized: /api/notifications/
+WARNING 2025-08-03 21:12:43,912 basehttp 10640 16536 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 21:12:43,920 basehttp 10640 16536 "GET /api/audit-logs/ HTTP/1.1" 200 1944
+INFO 2025-08-03 21:13:33,744 basehttp 10640 12736 "OPTIONS /api/salesperson/auth/ HTTP/1.1" 200 0
+WARNING 2025-08-03 21:13:33,835 log 10640 12736 Unauthorized: /api/salesperson/auth/
+WARNING 2025-08-03 21:13:33,835 basehttp 10640 12736 "POST /api/salesperson/auth/ HTTP/1.1" 401 39
+INFO 2025-08-03 21:24:30,080 basehttp 10640 16584 "POST /api/admin/login/ HTTP/1.1" 200 52
+INFO 2025-08-03 21:24:30,149 basehttp 10640 16584 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 21:24:30,167 basehttp 10640 16584 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 21:24:30,247 basehttp 10640 18008 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 21:24:30,270 basehttp 10640 18008 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 21:24:30,270 basehttp 10640 16584 "GET /api/users/ HTTP/1.1" 200 328
+INFO 2025-08-03 21:24:30,285 basehttp 10640 18008 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 21:24:30,288 basehttp 10640 16584 "GET /api/users/ HTTP/1.1" 200 328
+INFO 2025-08-03 21:24:30,300 basehttp 10640 18008 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 21:24:30,307 log 10640 18008 Unauthorized: /api/notifications/
+WARNING 2025-08-03 21:24:30,309 basehttp 10640 18008 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 21:24:30,310 basehttp 10640 16584 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 21:24:30,325 basehttp 10640 16584 "GET /api/audit-logs/ HTTP/1.1" 200 2252
+INFO 2025-08-03 21:24:30,326 basehttp 10640 18008 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 21:24:30,336 log 10640 18008 Unauthorized: /api/notifications/
+WARNING 2025-08-03 21:24:30,336 basehttp 10640 18008 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 21:24:30,344 basehttp 10640 18008 "GET /api/audit-logs/ HTTP/1.1" 200 2252
+INFO 2025-08-03 21:25:44,832 basehttp 10640 5604 "POST /api/users/generate-token/ HTTP/1.1" 200 20
+INFO 2025-08-03 21:25:44,865 basehttp 10640 5604 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 21:25:44,878 basehttp 10640 5604 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 21:25:44,888 basehttp 10640 5604 "GET /api/users/ HTTP/1.1" 200 328
+INFO 2025-08-03 21:25:44,905 basehttp 10640 5604 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 21:25:44,911 basehttp 10640 5604 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 21:25:44,919 log 10640 5604 Unauthorized: /api/notifications/
+WARNING 2025-08-03 21:25:44,920 basehttp 10640 5604 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 21:25:44,928 basehttp 10640 5604 "GET /api/audit-logs/ HTTP/1.1" 200 2598
+WARNING 2025-08-03 21:26:15,626 log 10640 5604 Unauthorized: /api/salesperson/auth/
+WARNING 2025-08-03 21:26:15,629 basehttp 10640 5604 "POST /api/salesperson/auth/ HTTP/1.1" 401 25
+WARNING 2025-08-03 21:26:26,911 log 10640 5604 Unauthorized: /api/salesperson/auth/
+WARNING 2025-08-03 21:26:26,913 basehttp 10640 5604 "POST /api/salesperson/auth/ HTTP/1.1" 401 25
+INFO 2025-08-03 21:36:13,499 autoreload 2908 17500 Watching for file changes with StatReloader
+INFO 2025-08-03 21:49:37,726 autoreload 2908 17500 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 21:49:39,950 autoreload 12492 11340 Watching for file changes with StatReloader
+INFO 2025-08-03 21:55:20,423 autoreload 13452 4016 Watching for file changes with StatReloader
+INFO 2025-08-03 21:55:52,734 basehttp 12492 10844 "POST /api/generate-token/ HTTP/1.1" 201 20
+INFO 2025-08-03 22:13:02,160 basehttp 12492 6660 "POST /api/salesperson/auth/ HTTP/1.1" 200 52
+WARNING 2025-08-03 22:21:35,382 log 12492 11352 Unauthorized: /api/salesperson/auth/
+WARNING 2025-08-03 22:21:35,383 basehttp 12492 11352 "POST /api/salesperson/auth/ HTTP/1.1" 401 39
+WARNING 2025-08-03 22:36:29,206 log 12492 5184 Unauthorized: /api/salesperson/auth/
+WARNING 2025-08-03 22:36:29,207 basehttp 12492 5184 "POST /api/salesperson/auth/ HTTP/1.1" 401 39
+INFO 2025-08-03 22:37:51,973 basehttp 12492 5184 "POST /api/generate-token/ HTTP/1.1" 201 20
+INFO 2025-08-03 22:41:10,226 basehttp 12492 2848 "POST /api/salesperson/auth/ HTTP/1.1" 200 52
+INFO 2025-08-03 22:42:50,225 autoreload 13452 4016 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 22:42:50,327 autoreload 12492 11340 D:\projects\Inventory\Inv\inventory_project\inventory_project\settings.py changed, reloading.
+INFO 2025-08-03 22:42:53,066 autoreload 7996 16256 Watching for file changes with StatReloader
+INFO 2025-08-03 22:42:53,069 autoreload 5716 16380 Watching for file changes with StatReloader
+WARNING 2025-08-03 22:43:27,138 log 5716 6508 Unauthorized: /api/salesperson/auth/
+WARNING 2025-08-03 22:43:27,139 basehttp 5716 6508 "POST /api/salesperson/auth/ HTTP/1.1" 401 25
+WARNING 2025-08-03 22:47:58,542 log 5716 5740 Not Found: /
+WARNING 2025-08-03 22:47:58,543 basehttp 5716 5740 "GET / HTTP/1.1" 404 2315
+INFO 2025-08-03 22:48:04,119 basehttp 5716 5740 "GET /api/users/ HTTP/1.1" 200 405
+WARNING 2025-08-03 22:48:20,063 log 5716 5740 Not Found: /api/
+WARNING 2025-08-03 22:48:20,064 basehttp 5716 5740 "GET /api/ HTTP/1.1" 404 6557
+WARNING 2025-08-03 22:48:32,248 log 5716 16128 Method Not Allowed: /api/generate-token/
+WARNING 2025-08-03 22:48:32,249 basehttp 5716 16128 "GET /api/generate-token/ HTTP/1.1" 405 40
+INFO 2025-08-03 22:48:55,854 basehttp 5716 11536 "POST /api/admin/login/ HTTP/1.1" 200 52
+INFO 2025-08-03 22:48:55,947 basehttp 5716 11536 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 22:48:55,962 basehttp 5716 11536 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 22:48:56,097 basehttp 5716 15904 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 22:48:56,111 basehttp 5716 15904 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 22:48:56,112 basehttp 5716 11536 "GET /api/users/ HTTP/1.1" 200 405
+INFO 2025-08-03 22:48:56,122 basehttp 5716 11536 "GET /api/users/ HTTP/1.1" 200 405
+INFO 2025-08-03 22:48:56,134 basehttp 5716 15904 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 22:48:56,154 basehttp 5716 15904 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 22:48:56,154 basehttp 5716 11536 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 22:48:56,172 log 5716 15904 Unauthorized: /api/notifications/
+INFO 2025-08-03 22:48:56,178 basehttp 5716 11536 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 22:48:56,180 basehttp 5716 15904 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 22:48:56,186 log 5716 15904 Unauthorized: /api/notifications/
+WARNING 2025-08-03 22:48:56,187 basehttp 5716 15904 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 22:48:56,205 basehttp 5716 15904 "GET /api/audit-logs/ HTTP/1.1" 200 2906
+INFO 2025-08-03 22:48:56,215 basehttp 5716 15904 "GET /api/audit-logs/ HTTP/1.1" 200 2906
+INFO 2025-08-03 22:49:06,178 basehttp 5716 15904 "POST /api/users/generate-token/ HTTP/1.1" 200 20
+INFO 2025-08-03 22:49:06,195 basehttp 5716 15904 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 22:49:06,214 basehttp 5716 15904 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 22:49:06,224 basehttp 5716 15904 "GET /api/users/ HTTP/1.1" 200 411
+INFO 2025-08-03 22:49:06,241 basehttp 5716 15904 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 22:49:06,263 basehttp 5716 15904 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 22:49:06,277 log 5716 15904 Unauthorized: /api/notifications/
+WARNING 2025-08-03 22:49:06,283 basehttp 5716 15904 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 22:49:06,291 basehttp 5716 15904 "GET /api/audit-logs/ HTTP/1.1" 200 3251
+WARNING 2025-08-03 22:49:31,623 log 5716 15904 Unauthorized: /api/salesperson/auth/
+WARNING 2025-08-03 22:49:31,623 basehttp 5716 15904 "POST /api/salesperson/auth/ HTTP/1.1" 401 25
+WARNING 2025-08-03 22:49:51,344 log 5716 15904 Unauthorized: /api/salesperson/auth/
+WARNING 2025-08-03 22:49:51,346 basehttp 5716 15904 "POST /api/salesperson/auth/ HTTP/1.1" 401 25
+INFO 2025-08-03 22:52:17,107 autoreload 12128 11424 Watching for file changes with StatReloader
+WARNING 2025-08-03 22:53:22,037 log 7996 12608 Unauthorized: /api/salesperson/auth/
+WARNING 2025-08-03 22:53:22,037 basehttp 7996 12608 "POST /api/salesperson/auth/ HTTP/1.1" 401 25
+INFO 2025-08-03 22:53:35,153 basehttp 7996 12608 "POST /api/generate-token/ HTTP/1.1" 201 20
+WARNING 2025-08-03 22:53:45,443 log 7996 12608 Unauthorized: /api/salesperson/auth/
+WARNING 2025-08-03 22:53:45,444 basehttp 7996 12608 "POST /api/salesperson/auth/ HTTP/1.1" 401 31
+INFO 2025-08-03 22:54:04,861 basehttp 7996 12608 "POST /api/salesperson/auth/ HTTP/1.1" 200 52
+INFO 2025-08-03 22:57:55,028 basehttp 7996 3704 "OPTIONS /api/admin/register/ HTTP/1.1" 200 0
+INFO 2025-08-03 22:57:56,032 basehttp 7996 3704 "POST /api/admin/register/ HTTP/1.1" 200 52
+INFO 2025-08-03 22:58:08,339 basehttp 7996 6972 "OPTIONS /api/admin/login/ HTTP/1.1" 200 0
+INFO 2025-08-03 22:58:09,283 basehttp 7996 6972 "POST /api/admin/login/ HTTP/1.1" 200 52
+INFO 2025-08-03 22:58:09,318 basehttp 7996 6972 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+INFO 2025-08-03 22:58:09,322 basehttp 7996 776 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+INFO 2025-08-03 22:58:09,432 basehttp 7996 776 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 22:58:09,439 basehttp 7996 776 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-08-03 22:58:09,462 basehttp 7996 776 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 22:58:09,463 basehttp 7996 6972 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 22:58:09,487 basehttp 7996 6972 "OPTIONS /api/users/ HTTP/1.1" 200 0
+INFO 2025-08-03 22:58:09,497 basehttp 7996 776 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 22:58:09,506 basehttp 7996 6972 "GET /api/users/ HTTP/1.1" 200 566
+INFO 2025-08-03 22:58:09,526 basehttp 7996 6972 "GET /api/users/ HTTP/1.1" 200 566
+INFO 2025-08-03 22:58:09,542 basehttp 7996 6972 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 22:58:09,551 basehttp 7996 6972 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+INFO 2025-08-03 22:58:09,552 basehttp 7996 776 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 22:58:09,565 basehttp 7996 776 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 22:58:09,572 basehttp 7996 6972 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 22:58:09,574 basehttp 7996 776 "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+WARNING 2025-08-03 22:58:09,584 log 7996 6972 Unauthorized: /api/notifications/
+WARNING 2025-08-03 22:58:09,585 basehttp 7996 6972 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-03 22:58:09,595 log 7996 6972 Unauthorized: /api/notifications/
+INFO 2025-08-03 22:58:09,596 basehttp 7996 776 "OPTIONS /api/audit-logs/ HTTP/1.1" 200 0
+WARNING 2025-08-03 22:58:09,597 basehttp 7996 6972 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 22:58:09,614 basehttp 7996 6972 "GET /api/audit-logs/ HTTP/1.1" 200 3559
+INFO 2025-08-03 22:58:09,622 basehttp 7996 776 "GET /api/audit-logs/ HTTP/1.1" 200 3559
+INFO 2025-08-03 22:58:18,771 basehttp 7996 15852 "OPTIONS /api/users/generate-token/ HTTP/1.1" 200 0
+INFO 2025-08-03 22:58:18,852 basehttp 7996 15852 "POST /api/users/generate-token/ HTTP/1.1" 200 20
+INFO 2025-08-03 22:58:18,874 basehttp 7996 15852 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 22:58:18,895 basehttp 7996 15852 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 22:58:18,909 basehttp 7996 15852 "GET /api/users/ HTTP/1.1" 200 572
+INFO 2025-08-03 22:58:18,926 basehttp 7996 15852 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 22:58:18,956 basehttp 7996 15852 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 22:58:18,967 log 7996 15852 Unauthorized: /api/notifications/
+WARNING 2025-08-03 22:58:18,968 basehttp 7996 15852 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 22:58:18,980 basehttp 7996 15852 "GET /api/audit-logs/ HTTP/1.1" 200 3907
+INFO 2025-08-03 22:59:21,424 basehttp 7996 13236 "OPTIONS /api/generate-token/ HTTP/1.1" 200 0
+INFO 2025-08-03 22:59:21,515 basehttp 7996 13236 "POST /api/generate-token/ HTTP/1.1" 201 20
+INFO 2025-08-03 23:00:00,887 basehttp 7996 12776 "OPTIONS /api/salesperson/auth/ HTTP/1.1" 200 0
+INFO 2025-08-03 23:00:02,745 basehttp 7996 12776 "POST /api/salesperson/auth/ HTTP/1.1" 200 52
+INFO 2025-08-03 23:00:02,806 basehttp 7996 12776 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 23:00:02,829 basehttp 7996 12776 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 23:00:02,945 basehttp 7996 7876 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 23:00:02,953 basehttp 7996 12776 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 23:00:02,954 basehttp 7996 9036 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 23:00:02,963 basehttp 7996 7876 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 23:03:08,071 basehttp 7996 8972 "OPTIONS /api/generate-token/ HTTP/1.1" 200 0
+INFO 2025-08-03 23:03:08,178 basehttp 7996 8972 "POST /api/generate-token/ HTTP/1.1" 201 20
+INFO 2025-08-03 23:03:16,486 basehttp 7996 8972 "POST /api/salesperson/auth/ HTTP/1.1" 200 52
+INFO 2025-08-03 23:03:16,600 basehttp 7996 8972 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 23:03:16,622 basehttp 7996 8972 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 23:03:16,815 basehttp 7996 864 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 23:03:16,846 basehttp 7996 864 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 23:03:16,900 basehttp 7996 1320 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 23:03:16,922 basehttp 7996 1320 "GET /api/customers/ HTTP/1.1" 200 732
+INFO 2025-08-03 23:04:00,985 basehttp 7996 1320 "OPTIONS /api/customers/ HTTP/1.1" 200 0
+INFO 2025-08-03 23:04:01,005 basehttp 7996 1320 "POST /api/customers/ HTTP/1.1" 201 154
+WARNING 2025-08-03 23:06:02,058 log 7996 17776 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 23:06:02,059 basehttp 7996 17776 "POST /api/admin/login/ HTTP/1.1" 401 31
+WARNING 2025-08-03 23:06:42,870 log 7996 17776 Unauthorized: /api/admin/login/
+WARNING 2025-08-03 23:06:42,871 basehttp 7996 17776 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-03 23:07:28,175 basehttp 7996 9692 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 23:07:28,188 basehttp 7996 2236 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 23:07:28,213 basehttp 7996 2236 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 23:07:28,213 basehttp 7996 9692 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 23:07:28,236 basehttp 7996 6448 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-03 23:07:28,245 basehttp 7996 9692 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-03 23:07:35,071 basehttp 7996 10220 "POST /api/admin/register/ HTTP/1.1" 200 52
+INFO 2025-08-03 23:07:50,246 basehttp 7996 10220 "POST /api/admin/login/ HTTP/1.1" 200 52
+INFO 2025-08-03 23:07:50,331 basehttp 7996 10220 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 23:07:50,349 basehttp 7996 10220 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-03 23:07:50,518 basehttp 7996 11080 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 23:07:50,534 basehttp 7996 11080 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-03 23:07:50,538 basehttp 7996 10220 "GET /api/users/ HTTP/1.1" 200 812
+INFO 2025-08-03 23:07:50,552 basehttp 7996 10220 "GET /api/users/ HTTP/1.1" 200 812
+INFO 2025-08-03 23:07:50,566 basehttp 7996 11080 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-03 23:07:50,584 basehttp 7996 10220 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-03 23:07:50,602 basehttp 7996 11080 "GET /api/customers/ HTTP/1.1" 200 887
+WARNING 2025-08-03 23:07:50,606 log 7996 10220 Unauthorized: /api/notifications/
+WARNING 2025-08-03 23:07:50,619 basehttp 7996 10220 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 23:07:50,622 basehttp 7996 11080 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-03 23:07:50,644 log 7996 11080 Unauthorized: /api/notifications/
+INFO 2025-08-03 23:07:50,648 basehttp 7996 10220 "GET /api/audit-logs/ HTTP/1.1" 200 5139
+WARNING 2025-08-03 23:07:50,657 basehttp 7996 11080 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-03 23:07:50,686 basehttp 7996 11080 "GET /api/audit-logs/ HTTP/1.1" 200 5139
+INFO 2025-08-03 23:08:00,508 basehttp 7996 11080 "POST /api/generate-token/ HTTP/1.1" 201 20
+INFO 2025-08-03 23:56:17,672 autoreload 2712 2292 Watching for file changes with StatReloader
+INFO 2025-08-04 00:00:06,992 basehttp 2712 5612 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:00:06,998 basehttp 2712 18212 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:00:06,998 basehttp 2712 2604 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:00:07,009 basehttp 2712 16212 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:00:07,199 basehttp 2712 5612 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:00:07,231 basehttp 2712 5612 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:00:07,255 basehttp 2712 17968 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:00:07,264 basehttp 2712 17968 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:00:07,308 basehttp 2712 18212 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:00:07,320 basehttp 2712 18212 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:03:12,642 basehttp 2712 17968 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:03:12,646 basehttp 2712 18212 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:03:12,647 basehttp 2712 5612 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:03:12,660 basehttp 2712 17968 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:03:12,664 basehttp 2712 5612 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:03:12,801 basehttp 2712 16212 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:03:47,252 basehttp 2712 16212 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:03:47,261 basehttp 2712 5612 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:03:47,261 basehttp 2712 17968 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:04:34,252 basehttp 2712 5612 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:04:34,266 basehttp 2712 17968 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:04:34,269 basehttp 2712 5612 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:05:02,279 basehttp 2712 5612 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:05:02,279 basehttp 2712 17968 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:05:02,286 basehttp 2712 16212 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:06:03,385 basehttp 2712 3808 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:06:03,426 basehttp 2712 8508 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:06:03,468 basehttp 2712 8032 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:06:45,299 basehttp 2712 8508 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:06:45,304 basehttp 2712 3808 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:06:45,325 basehttp 2712 8032 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:07:46,245 basehttp 2712 8032 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:07:46,678 basehttp 2712 8032 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:07:46,678 basehttp 2712 3808 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:08:25,265 basehttp 2712 8032 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:08:25,265 basehttp 2712 3808 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:08:25,266 basehttp 2712 8508 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:08:48,263 basehttp 2712 3808 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:08:48,273 basehttp 2712 8508 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:08:48,275 basehttp 2712 8032 "GET /api/customers/ HTTP/1.1" 200 887
+WARNING 2025-08-04 00:15:29,726 log 2712 1360 Bad Request: /api/sales/
+WARNING 2025-08-04 00:15:29,727 basehttp 2712 1360 "POST /api/sales/ HTTP/1.1" 400 111
+INFO 2025-08-04 00:24:15,378 basehttp 2712 9676 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:24:15,406 basehttp 2712 12376 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:24:15,424 basehttp 2712 9676 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:24:15,433 basehttp 2712 15104 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:24:15,445 basehttp 2712 12376 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:24:15,527 basehttp 2712 7480 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-04 00:24:30,238 log 2712 6028 Bad Request: /api/sales/
+WARNING 2025-08-04 00:24:30,240 basehttp 2712 6028 "POST /api/sales/ HTTP/1.1" 400 111
+INFO 2025-08-04 00:25:34,681 basehttp 2712 6028 "OPTIONS /api/admin/login/ HTTP/1.1" 200 0
+WARNING 2025-08-04 00:25:36,265 log 2712 6028 Unauthorized: /api/admin/login/
+WARNING 2025-08-04 00:25:36,266 basehttp 2712 6028 "POST /api/admin/login/ HTTP/1.1" 401 31
+WARNING 2025-08-04 00:25:45,686 log 2712 6028 Unauthorized: /api/admin/login/
+WARNING 2025-08-04 00:25:45,688 basehttp 2712 6028 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-04 00:25:58,232 basehttp 2712 8972 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:25:58,235 basehttp 2712 10516 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:25:58,380 basehttp 2712 10516 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-04 00:25:58,388 basehttp 2712 10516 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:25:58,411 basehttp 2712 10516 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:25:58,434 basehttp 2712 10516 "OPTIONS /api/users/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:25:58,472 basehttp 2712 10516 "GET /api/users/ HTTP/1.1" 200 812
+INFO 2025-08-04 00:25:58,498 basehttp 2712 10516 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:25:58,510 basehttp 2712 10516 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:25:58,520 basehttp 2712 10516 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:25:58,528 basehttp 2712 10516 "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+WARNING 2025-08-04 00:25:58,556 log 2712 10516 Unauthorized: /api/notifications/
+WARNING 2025-08-04 00:25:58,557 basehttp 2712 10516 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-04 00:25:58,564 basehttp 2712 10516 "OPTIONS /api/audit-logs/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:25:58,591 basehttp 2712 10516 "GET /api/audit-logs/ HTTP/1.1" 200 7449
+INFO 2025-08-04 00:25:58,593 basehttp 2712 8972 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-04 00:25:58,615 basehttp 2712 8972 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:25:58,629 basehttp 2712 8972 "GET /api/users/ HTTP/1.1" 200 812
+INFO 2025-08-04 00:25:58,644 basehttp 2712 8972 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:25:58,657 basehttp 2712 8972 "GET /api/sales/ HTTP/1.1" 200 2
+WARNING 2025-08-04 00:25:58,665 log 2712 8972 Unauthorized: /api/notifications/
+WARNING 2025-08-04 00:25:58,666 basehttp 2712 8972 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-04 00:25:58,680 basehttp 2712 8972 "GET /api/audit-logs/ HTTP/1.1" 200 7603
+INFO 2025-08-04 00:26:34,282 basehttp 2712 6028 "OPTIONS /api/admin/login/ HTTP/1.1" 200 0
+WARNING 2025-08-04 00:26:34,317 log 2712 6028 Bad Request: /api/admin/login/
+WARNING 2025-08-04 00:26:34,335 basehttp 2712 6028 "POST /api/admin/login/ HTTP/1.1" 400 42
+WARNING 2025-08-04 00:26:50,910 log 2712 6028 Unauthorized: /api/admin/login/
+WARNING 2025-08-04 00:26:50,910 basehttp 2712 6028 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-04 00:27:32,995 basehttp 2712 6028 "OPTIONS /api/admin/register/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:27:33,890 basehttp 2712 6028 "POST /api/admin/register/ HTTP/1.1" 200 52
+WARNING 2025-08-04 00:27:39,528 log 2712 6028 Unauthorized: /api/admin/login/
+WARNING 2025-08-04 00:27:39,529 basehttp 2712 6028 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-04 00:28:05,516 basehttp 2712 6028 "POST /api/admin/login/ HTTP/1.1" 200 52
+INFO 2025-08-04 00:28:05,571 basehttp 2712 6028 "OPTIONS /api/dashboard-stats/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:28:05,598 basehttp 2712 6028 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-04 00:28:05,608 basehttp 2712 7280 "OPTIONS /api/products/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:28:05,615 basehttp 2712 6028 "GET /api/dashboard-stats/ HTTP/1.1" 200 92
+INFO 2025-08-04 00:28:05,714 basehttp 2712 7280 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:28:05,724 basehttp 2712 6028 "OPTIONS /api/users/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:28:05,727 basehttp 2712 7280 "GET /api/products/ HTTP/1.1" 200 894
+INFO 2025-08-04 00:28:05,737 basehttp 2712 6028 "GET /api/users/ HTTP/1.1" 200 890
+INFO 2025-08-04 00:28:05,750 basehttp 2712 6028 "GET /api/users/ HTTP/1.1" 200 890
+INFO 2025-08-04 00:28:05,750 basehttp 2712 7280 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:28:05,760 basehttp 2712 7280 "OPTIONS /api/sales/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:28:05,767 basehttp 2712 6028 "GET /api/customers/ HTTP/1.1" 200 887
+INFO 2025-08-04 00:28:05,775 basehttp 2712 7280 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:28:05,782 basehttp 2712 7280 "GET /api/sales/ HTTP/1.1" 200 2
+INFO 2025-08-04 00:28:05,782 basehttp 2712 6028 "OPTIONS /api/notifications/ HTTP/1.1" 200 0
+WARNING 2025-08-04 00:28:05,787 log 2712 6028 Unauthorized: /api/notifications/
+WARNING 2025-08-04 00:28:05,789 basehttp 2712 6028 "GET /api/notifications/ HTTP/1.1" 401 58
+WARNING 2025-08-04 00:28:05,794 log 2712 6028 Unauthorized: /api/notifications/
+WARNING 2025-08-04 00:28:05,796 basehttp 2712 6028 "GET /api/notifications/ HTTP/1.1" 401 58
+INFO 2025-08-04 00:28:05,797 basehttp 2712 7280 "OPTIONS /api/audit-logs/ HTTP/1.1" 200 0
+INFO 2025-08-04 00:28:05,808 basehttp 2712 7280 "GET /api/audit-logs/ HTTP/1.1" 200 7911
+INFO 2025-08-04 00:28:05,821 basehttp 2712 7280 "GET /api/audit-logs/ HTTP/1.1" 200 7911
+WARNING 2025-08-04 00:31:47,564 log 2712 7280 Unauthorized: /api/admin/login/
+WARNING 2025-08-04 00:31:47,565 basehttp 2712 7280 "POST /api/admin/login/ HTTP/1.1" 401 31
+WARNING 2025-08-04 00:32:08,062 log 2712 7280 Unauthorized: /api/admin/login/
+WARNING 2025-08-04 00:32:08,063 basehttp 2712 7280 "POST /api/admin/login/ HTTP/1.1" 401 31
+WARNING 2025-08-04 00:32:20,978 log 2712 7280 Unauthorized: /api/admin/login/
+WARNING 2025-08-04 00:32:20,979 basehttp 2712 7280 "POST /api/admin/login/ HTTP/1.1" 401 31
+INFO 2025-08-04 00:33:24,576 autoreload 2712 2292 D:\projects\Inventory\Inv\inventory_project\inventory\views.py changed, reloading.
+INFO 2025-08-04 00:33:27,670 autoreload 6812 712 Watching for file changes with StatReloader
+INFO 2025-08-04 00:36:03,773 autoreload 6812 712 D:\projects\Inventory\Inv\inventory_project\inventory\models.py changed, reloading.
+INFO 2025-08-04 00:36:05,733 autoreload 2856 9636 Watching for file changes with StatReloader
+INFO 2025-08-04 00:43:21,192 autoreload 9304 3972 Watching for file changes with StatReloader
+INFO 2025-08-04 00:46:42,622 autoreload 2856 9636 D:\projects\Inventory\Inv\inventory_project\inventory\models.py changed, reloading.
+INFO 2025-08-04 00:46:49,748 autoreload 9584 13340 Watching for file changes with StatReloader
+INFO 2025-08-04 00:47:31,906 autoreload 17280 9892 Watching for file changes with StatReloader
+INFO 2025-08-04 00:50:37,730 autoreload 17280 9892 D:\projects\Inventory\Inv\inventory_project\inventory\models.py changed, reloading.
+INFO 2025-08-04 00:50:40,783 autoreload 15904 16144 Watching for file changes with StatReloader

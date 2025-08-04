@@ -1,0 +1,182 @@
+In an **Inventory Management System**, a **Sales Personnel** typically interacts with only the parts of the system that relate to selling products, tracking inventory during sales, and communicating with the admin or warehouse. Below are **essential and optional functions** they can perform:
+
+---
+
+## ✅ **Core Functions for Sales Personnel**
+
+### 1. 🔐 **Login with Token (from Admin)**
+
+* Token-authenticated access for security
+* Separate from admin login
+
+### 2. 📦 **View Available Products**
+
+* See real-time list of available items
+* Quantity, price, and product description
+
+### 3. 🛒 **Create and Process Sales Orders**
+
+* Search/select products
+* Input quantity sold
+* Auto-update stock levels
+* Generate receipts or invoices
+
+### 4. 📊 **View Sales History**
+
+* See records of past sales (date, items, quantity, amount)
+* Filter by date range or customer
+
+### 5. 🧾 **Generate Sales Reports**
+
+* Daily or weekly reports
+* Exportable (PDF/Excel)
+
+### 6. 👤 **Register or Select Existing Customers**
+
+* Optional: Link sales to specific customers
+* Store contact info for regular buyers
+
+---
+
+## 🚀 Optional but Useful Functions
+
+### 7. 💬 **Send Low Stock Alerts to Admin**
+
+* Notify when products are almost out
+* “Request restock” feature
+
+### 8. 🔎 **Search or Filter Products**
+
+* Filter by category, brand, or low stock
+
+### 9. 🧮 **Apply Discounts or Promotions**
+
+* Controlled discount input
+* Automatically apply ongoing promotions
+
+### 10. 🧭 **Dashboard Summary**
+
+* Quick stats: today’s sales, number of items sold, bestsellers
+
+### 11. 🧑‍🤝‍🧑 **Request New Products**
+
+* Suggest new stock to admin
+* Message box or form
+
+---
+
+## 🚫 What Sales Personnel **Should Not** Access
+
+| Admin Feature                   | Reason                    |
+| ------------------------------- | ------------------------- |
+| Add/Delete Products             | Admin controls inventory  |
+| Edit Stock Manually             | Prevent tampering         |
+| View Other Sales Personnel Data | Privacy & security        |
+| Manage Users                    | Admin-only responsibility |
+
+---
+
+Would you like a table or UI layout based on these functions? Or should I help you implement role-based access in your frontend/backend system?
+
+
+
+Great question. In an **Inventory Management System**, the **Admin** is the highest-level user and should have **full control** over both the system's data and user permissions.
+
+---
+
+## ✅ Admin Privileges (Full Breakdown)
+
+---
+
+### 🗃️ **1. Product Management**
+
+* Add, edit, or delete products
+* Set pricing, quantity, category, expiry date
+* Assign or generate SKUs
+* Mark products as discontinued
+* Set low-stock alert thresholds
+
+---
+
+### 👥 **2. User Management**
+
+* Add/edit/delete users (e.g., sales personnel)
+* Assign roles: `admin`, `sales`, `viewer`, etc.
+* Generate tokens for sales personnel
+* Reset passwords or deactivate accounts
+
+---
+
+### 💰 **3. Sales Oversight**
+
+* View all sales from all users
+* Filter sales by user, date, product
+* Export sales reports (CSV, PDF)
+* Refund or cancel transactions (with audit trail)
+
+---
+
+### 📦 **4. Stock Management**
+
+* Manually update stock levels
+* Receive new stock into inventory
+* Track batch numbers or supplier info
+* Set reorder points
+
+---
+
+### 📊 **5. Dashboard & Analytics**
+
+* View key metrics:
+
+  * Total sales
+  * Low-stock items
+  * Fast-moving products
+  * Top-performing sales staff
+* Generate reports (weekly, monthly, etc.)
+
+---
+
+### 🧾 **6. Customer Oversight**
+
+* View all customers
+* Edit customer info
+* View purchase history per customer
+
+---
+
+### 🔐 **7. System Settings**
+
+* Configure:
+
+  * Currency
+  * Tax rates
+  * Discount rules
+* Enable/disable features
+* Set working hours or zones
+
+---
+
+### 🛡️ **8. Audit Logs**
+
+* View logs of all major activities:
+
+  * Login history
+  * Product changes
+  * User modifications
+  * Sales deletions or edits
+
+---
+
+## 🔒 Optional Admin Controls
+
+| Feature                | Description                                  |
+| ---------------------- | -------------------------------------------- |
+| Role-based Access      | Define granular permissions for each role    |
+| Multi-store Management | Admin can switch between branches/warehouses |
+| Backup & Restore       | Export or import full data backups           |
+| Notification Settings  | Set who receives alerts for low stock, etc.  |
+
+---
+
+Would you like a **permission table** or **backend logic** example for managing these privileges securely (e.g., using roles)?
