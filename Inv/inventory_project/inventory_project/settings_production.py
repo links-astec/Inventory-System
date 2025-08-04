@@ -10,7 +10,7 @@ DEBUG = False
 
 # Production allowed hosts
 ALLOWED_HOSTS = [
-    'yourusername.pythonanywhere.com',  # Replace with your actual PythonAnywhere username
+    'awisdom.pythonanywhere.com',  # Replace with your actual PythonAnywhere username
     '.pythonanywhere.com',
     'localhost',
     '127.0.0.1',
@@ -22,9 +22,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': os.environ.get('DB_NAME', 'inventory_db'),
         'USER': os.environ.get('DB_USER', 'postgres'),
-        'PASSWORD': os.environ.get('DB_PASSWORD', 'your_password'),
+        'PASSWORD': os.environ.get('DB_PASSWORD', 'password'),
         'HOST': os.environ.get('DB_HOST', '2.tcp.ngrok.io'),  # ngrok tunnel host
-        'PORT': os.environ.get('DB_PORT', '12345'),  # ngrok tunnel port
+        'PORT': os.environ.get('DB_PORT', '5432'),  # ngrok tunnel port
         'OPTIONS': {
             'connect_timeout': 60,
             'sslmode': 'prefer',  # Use SSL if available
@@ -45,11 +45,11 @@ CORS_ALLOW_ALL_ORIGINS = False
 
 # Static files configuration for PythonAnywhere
 STATIC_URL = '/static/'
-STATIC_ROOT = '/home/yourusername/inventory_project/staticfiles'  # Replace yourusername
+STATIC_ROOT = '/home/awisdom/inventory_project/staticfiles'  # Replace yourusername
 
 # Media files configuration
 MEDIA_URL = '/media/'
-MEDIA_ROOT = '/home/yourusername/inventory_project/media'  # Replace yourusername
+MEDIA_ROOT = '/home/awisdom/inventory_project/media'  # Replace yourusername
 
 # Security settings for production
 SECURE_BROWSER_XSS_FILTER = True
@@ -82,7 +82,7 @@ LOGGING = {
         'file': {
             'level': 'INFO',
             'class': 'logging.FileHandler',
-            'filename': '/home/yourusername/inventory_project/logs/django.log',  # Replace yourusername
+            'filename': '/home/awisdom/inventory_project/logs/django.log',  # Replace yourusername
             'formatter': 'verbose',
         },
         'console': {
@@ -133,6 +133,6 @@ CSRF_COOKIE_HTTPONLY = True
 CSRF_COOKIE_SECURE = True
 CSRF_COOKIE_SAMESITE = 'Lax'
 CSRF_TRUSTED_ORIGINS = [
-    'https://yourusername.pythonanywhere.com',  # Replace with your actual domain
+    'https://awisdom.pythonanywhere.com',  # Replace with your actual domain
     'https://your-app-name.vercel.app',  # Replace with your actual Vercel URL
 ]

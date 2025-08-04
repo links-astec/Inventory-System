@@ -104,7 +104,7 @@ Update all API base URLs to point to your PythonAnywhere backend
    - Select `Inventory_frontend` as root directory
 
 3. **Environment Variables**:
-   - Add `VITE_API_BASE_URL=https://yourusername.pythonanywhere.com/api`
+   - Add `VITE_API_BASE_URL=https://awisdom.pythonanywhere.com/api`
 
 4. **Build Settings**:
    - Framework: Vite
